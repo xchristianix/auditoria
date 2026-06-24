@@ -353,7 +353,7 @@ if st.session_state.etapa == 1:
     # Opção de retomar backup
     with st.expander("📂 Retomar auditoria salva (.json)"):
         st.caption("Se você tem um arquivo de backup, carregue aqui para continuar de onde parou.")
-        uploaded = st.file_uploader("Selecione o arquivo .json", type=["json"], key="upload_backup")
+        uploaded = st.file_uploader("Selecione o arquivo .json", type=["json"], key="upload_backup_etapa1")
         if uploaded is not None:
             ok, info = carregar_backup_json(uploaded)
             if ok:
