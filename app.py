@@ -123,7 +123,21 @@ def carregar_nomes_subsecoes():
 @st.cache_data
 def carregar_setores():
     with open(BASE_DIR / "setores.json", "r", encoding="utf-8") as f:
-        return json.load(f)
+        raw = json.load(f)
+    # Compatibilidade: aceita lista de strings (formato antigo) ou de dicts (formato novo)
+    normalizado = []
+    for item in raw:
+        if isinstance(item, dict):
+            normalizado.append(item)
+        else:
+            # string solta → vira dict com agrupador "Outros"
+            normalizado.append({
+                "nome": str(item),
+                "tipo": "",
+                "agrupador": "OUTROS",
+                "grupo_operacional": "",
+            })
+    return normalizado
 
 requisitos = carregar_requisitos()
 nomes_sub = carregar_nomes_subsecoes()
@@ -131,7 +145,7 @@ setores_lista = carregar_setores()
 
 setores_por_agrupador = {}
 for s in setores_lista:
-    ag = s.get("agrupador", "Outros")
+    ag = s.get("agrupador", "Outros") if isinstance(s, dict) else "Outros"
     setores_por_agrupador.setdefault(ag, []).append(s)
 agrupadores_disponiveis = sorted(setores_por_agrupador.keys())
 
