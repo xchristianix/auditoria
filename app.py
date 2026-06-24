@@ -194,7 +194,33 @@ def gerar_backup_json():
         "avaliacoes": st.session_state.avaliacoes,
         "indice_atual": st.session_state.indice_atual,
     }
-    return json.dumps(backup, ensure_ascii=False, indent=2).encode("utf-8")
+
+    # Conversor universal para tipos não-JSON (numpy.int64, datetime, Timestamp, etc.)
+    def _serializar(obj):
+        try:
+            import numpy as np
+            if isinstance(obj, (np.integer,)):
+                return int(obj)
+            if isinstance(obj, (np.floating,)):
+                return float(obj)
+            if isinstance(obj, (np.bool_,)):
+                return bool(obj)
+            if isinstance(obj, np.ndarray):
+                return obj.tolist()
+        except ImportError:
+            pass
+        if isinstance(obj, (datetime, date)):
+            return obj.isoformat()
+        if hasattr(obj, "isoformat"):  # pandas Timestamp
+            return obj.isoformat()
+        if hasattr(obj, "item"):  # numpy scalar fallback
+            try:
+                return obj.item()
+            except Exception:
+                pass
+        return str(obj)  # último recurso
+
+    return json.dumps(backup, ensure_ascii=False, indent=2, default=_serializar).encode("utf-8")
 
 def carregar_backup_json(arquivo):
     """Restaura estado a partir de JSON"""
@@ -612,15 +638,15 @@ elif st.session_state.etapa == 3:
 
     if nova_aval:
         st.session_state.avaliacoes[chave] = {
-            "subsecao": req["subsecao"],
-            "item": req["item"],
+            "subsecao": str(req["subsecao"]),
+            "item": str(req["item"]),
             "nivel": int(req["nivel"]),
-            "requisito": req["requisito"],
-            "orientacoes": req.get("orientacoes", ""),
-            "sugestao_evidencia": req.get("sugestao_evidencia", ""),
-            "avaliacao": nova_aval,
-            "observacao": observacao,
-            "plano_acao": plano_acao,
+            "requisito": str(req["requisito"]),
+            "orientacoes": str(req.get("orientacoes", "") or ""),
+            "sugestao_evidencia": str(req.get("sugestao_evidencia", "") or ""),
+            "avaliacao": str(nova_aval),
+            "observacao": str(observacao or ""),
+            "plano_acao": str(plano_acao or ""),
         }
         marcar_alteracao()
 
