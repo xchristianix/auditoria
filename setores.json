@@ -1,186 +1,5749 @@
 [
-  " NADI ",
-  "6º Andar",
-  "AMB AGD",
-  "AMB CCP",
-  "AMB CRH",
-  "AMB Centro Peri Op",
-  "AMB Centro Periop",
-  "AMB Cirurgia Geral",
-  "AMB Cirurgia Torácica",
-  "AMB Cirurgia Vascular",
-  "AMB DOR",
-  "AMB Dermatologia",
-  "AMB Endocrino",
-  "AMB FISIO",
-  "AMB FONO",
-  "AMB Gastrocirurgia",
-  "AMB Gastroclínica",
-  "AMB Geriatria",
-  "AMB Ginecologia",
-  "AMB HD GERAL",
-  "AMB HEMOFILIA",
-  "AMB Hematologia",
-  "AMB Hemofilia",
-  "AMB Imunologia",
-  "AMB MI",
-  "AMB Nefrologia",
-  "AMB Neuro",
-  "AMB OTORRINO ",
-  "AMB Otorrino",
-  "AMB Plástica e Queimados",
-  "AMB Pneumo",
-  "AMB REOUVIR",
-  "AMB Reumato",
-  "AMB Reumato ",
-  "AMB SAÚDE SUPLEMENTAR",
-  "AMB SS",
-  "AMB TMO",
-  "AMB TO",
-  "AMB Tx Fígado e hepatologia",
-  "AMB Tx Renal",
-  "AMB URO",
-  "AMB Urodinamica",
-  "AMB Urologia",
-  "AMB. CABEÇA E PESCOÇO",
-  "ATENDIMENTO CIRÚRGICO",
-  "ATENDIMENTO EMERGENCIAL",
-  "ATENDIMENTO OFTALMOLÓGICO",
-  "Agudos",
-  "Amb Imuno",
-  "Anatomia Patológica e Citopatol",
-  "Análises Clínicas_x0009__x0009__x0009__x0009__x0009__x0009__x0009_",
-  "Assistência Farmacêutica_x0009__x0009__x0009__x0009__x0009__x0009__x0009_",
-  "Assistência Hemoterápica_x0009__x0009__x0009__x0009__x0009__x0009__x0009_",
-  "Assistência Nefrológica e Dialí",
-  "Assistência Nutricional_x0009__x0009__x0009__x0009__x0009__x0009__x0009_",
-  "Atendimento Ambulatorial_x0009__x0009__x0009__x0009__x0009__x0009__x0009_",
-  "Atendimento Cirúrgico_x0009__x0009__x0009__x0009__x0009__x0009__x0009_",
-  "Atendimento Obstétrico",
-  "Atendimento Oftamológico",
-  "Atenção Domiciliar",
-  "BERA",
-  "CC Ambulatorial",
-  "CC Arena",
-  "CC Central",
-  "CC Queimados",
-  "CC Refrativa",
-  "CDG",
-  "CDG 2ºANDAR",
-  "CEDMAC",
-  "CEIC",
-  "CLÍNICA MÉDICA",
-  "Crônicos",
-  "Cuidados Intensivos_x0009__x0009__x0009__x0009__x0009__x0009__x0009_",
-  "DLC",
-  "ELETROENCEFALOGRAMA",
-  "ENDOSCOPIA 6°ANDAR",
-  "Eletrocardiografia",
-  "Eletrocardiografia (ECG)",
-  "Eletroencefalograma",
-  "Eletroneuromiografia",
-  "FARMÁCIA CENTRAL",
-  "Gest. da Tecn. e Seg da Info",
-  "Gestão Administrativa e Finance",
-  "Gestão da Comunicação",
-  "Gestão da Qualidade e Segurança",
-  "Gestão da Segurança Inst.",
-  "Gestão de Equipamentos e Tecnol",
-  "Gestão de Infraestrutura_x0009__x0009__x0009__x0009__x0009__x0009__x0009_",
-  "Gestão de Pessoas",
-  "Gestão de Suprimentos e LOG",
-  "Gestão de leitos",
-  "Gestão do Acesso ao Cuidado",
-  "HD HEMATOLOGIA + HD TMO",
-  "HD Hemato + TMO",
-  "HD Reumato",
-  "HD Reumatologia",
-  "Lab. de  provas funcionais ",
-  "Lab. de Biologia Tumoral",
-  "Lab. de Citogenética",
-  "Lab. de Criopreservação",
-  "Lab. de Hematologia",
-  "Lab. de Hemostasia e Coagulação",
-  "Lab. de Histopatologia",
-  "Lab. de Imunohematologia",
-  "Lab. de Imunopatologia",
-  "Lab. de Imunopatologia Cutânea",
-  "Limpeza e Desinfecção de Superf",
-  "Litotripsia",
-  "Litotripsia (LECO)",
-  "Métodos Diagnósticos e Terapêut",
-  "Métodos Endoscópicos e Videoscó",
-  "NEUROCIRURGIA 5ºGS",
-  "ODONTOLOGIA",
-  "Obstetrícia",
-  "Odontologia",
-  "PA SAÚDE SUPLEMENTAR",
-  "POLISSONOGRAFIA",
-  "Polissonografia",
-  "Prev, Cont. de Infec. e Bioseg.",
-  "Processamento de Produtos ",
-  "Processamento de Roupa Enxoval_x0009_",
-  "Prova de Função Pulmonar",
-  "Prova de Função Pulmonar (PFP)",
-  "REPRODUÇÃO HUMANA",
-  "SEGURANÇA PATRIMONIAL",
-  "TELEMEDICINA",
-  "Telemedicina",
-  "UAC",
-  "UAVC",
-  "UCI",
-  "UER",
-  "UI CABEÇA E PESCOÇO",
-  "UI Cir Cab Pesc",
-  "UI Cir Geral",
-  "UI Cir Plástica",
-  "UI Cir Vascular",
-  "UI Clínica Médica",
-  "UI Dermato",
-  "UI Endocrino",
-  "UI Gastro  CIR",
-  "UI Gastro CL",
-  "UI Geriatria",
-  "UI Gineco",
-  "UI Hemato",
-  "UI Imuno",
-  "UI MI",
-  "UI MOLÉSTIAS INFECCIOSAS",
-  "UI NC",
-  "UI Nefro",
-  "UI Neuro Clínica",
-  "UI Neuro Infantil",
-  "UI Oftalmologia",
-  "UI Otorrino",
-  "UI PED",
-  "UI QUEIMADOS",
-  "UI Queimados",
-  "UI REUMATOLOGIA",
-  "UI Ret Geral 8GN ",
-  "UI Ret NC 5DN",
-  "UI Reumato",
-  "UI SS",
-  "UI STEP DOWN",
-  "UI TMO",
-  "UI TX Renal",
-  "UI Tx Fígado",
-  "UI Tx Renal",
-  "UI UROLOGIA",
-  "UI Uro",
-  "UTI 11 GN",
-  "UTI 11DS",
-  "UTI 11FF",
-  "UTI 11° DN",
-  "UTI 11º EE",
-  "UTI 11º FF",
-  "UTI 11º GN",
-  "UTI 11º GS",
-  "UTI 7AA",
-  "UTI 7°AA",
-  "UTI 8°AA",
-  "UTI 9°AA",
-  "UTI TRAUMA",
-  "Urodinâmica",
-  "VIDEO EEG",
-  "Video EEG"
+  {
+    "nome": "UI GINECOLOGIA 10",
+    "nome_original": "UI GINECOLOGIA 10",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA DV DE CLINICA GINECOLOGICA",
+    "nome_original": "[EGIN] - ENFERMARIA DV DE CLINICA GINECOLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI OBSTETRICIA 10",
+    "nome_original": "UI OBSTETRICIA 10",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF OBST GEST ALT RISCO",
+    "nome_original": "[EOGAR] - ENF OBST GEST ALT RISCO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF OBST ALOJ CONJUNTO",
+    "nome_original": "[EOAC] - ENF OBST ALOJ CONJUNTO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA OBSTETRICA NEONATAL",
+    "nome_original": "[EOBN] - ENFERMARIA OBSTETRICA NEONATAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DV CLINICA OBSTETRICA",
+    "nome_original": "[EOBS] - ENFERMARIA DV CLINICA OBSTETRICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI CIRURGIA BARIATRICA 09",
+    "nome_original": "UI CIRURGIA BARIATRICA 09",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF UNID CIRURGIA BARIATRICA E METABOLICA -AC",
+    "nome_original": "[E2CO] - ENF UNID CIRURGIA BARIATRICA E METABOLICA -AC",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA SVS DE CIRURGIA DE COLON E RETO",
+    "nome_original": "[E2CR] - ENFERMARIA SVS DE CIRURGIA DE COLON E RETO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "[EEND] ENF ENDOSCOPIA",
+    "nome_original": "[EEND] ENF ENDOSCOPIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI CIRURGIA ESTOMAGO - ESOFAGO 09",
+    "nome_original": "UI CIRURGIA ESTOMAGO - ESOFAGO 09",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA SERVICO CIR. ESTOMAGO E DUODENO",
+    "nome_original": "[E2CG] - ENFERMARIA SERVICO CIR. ESTOMAGO E DUODENO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA SVS CIRURGIA LAPAROSCOPICA",
+    "nome_original": "[E2CL] - ENFERMARIA SVS CIRURGIA LAPAROSCOPICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PRONTO SOCORRO GASTROCIRÚRGICA",
+    "nome_original": "[EPSCG] - ENF PRONTO SOCORRO GASTROCIRÚRGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI GASTROENTEROLOGIA 09GS",
+    "nome_original": "UI GASTROENTEROLOGIA 09GS",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF PRONTO SOCORRO GASTROCLÍNICA",
+    "nome_original": "[EPSGC] - ENF PRONTO SOCORRO GASTROCLÍNICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA SVS DE GASTROENTEROLOGIA",
+    "nome_original": "[E2MG] - ENFERMARIA SVS DE GASTROENTEROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PROCEDIMENTOS GASTROENTEROLOGIA CLINICA 09 GS",
+    "nome_original": "[EP9GS] - ENF PROCEDIMENTOS GASTROENTEROLOGIA CLINICA 09 GS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI TRANSPLANTE E CIRURGIA FIGADO 09",
+    "nome_original": "UI TRANSPLANTE E CIRURGIA FIGADO 09",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA UTI 1CY",
+    "nome_original": "[ECHX] - ENFERMARIA UTI 1CY",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PRONTO SOCORRO TRANSPLANTE DE FÍGADO",
+    "nome_original": "[EPSCH] - ENF PRONTO SOCORRO TRANSPLANTE DE FÍGADO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF TRANSPL FIGADO E ORGAOS DO APARELH DIGEST",
+    "nome_original": "[E1CH] - ENF TRANSPL FIGADO E ORGAOS DO APARELH DIGEST",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI CIRURGIA GERAL CABEÇA E PESCOÇO 08",
+    "nome_original": "UI CIRURGIA GERAL CABEÇA E PESCOÇO 08",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA DO SVS DE CIR. DE CABECA E PESCOCO",
+    "nome_original": "[E1CA] - ENFERMARIA DO SVS DE CIR. DE CABECA E PESCOCO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF CIRURGIA GERAL",
+    "nome_original": "[E3CGE] - ENF CIRURGIA GERAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI CIRURGIA PLASTICA 08",
+    "nome_original": "UI CIRURGIA PLASTICA 08",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA SVS DE CIRURGIA PLASTICA",
+    "nome_original": "[ECPL] - ENFERMARIA SVS DE CIRURGIA PLASTICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PRONTO SOCORRO CIRURGIA PLASTICA",
+    "nome_original": "[EPSPL] - ENF PRONTO SOCORRO CIRURGIA PLASTICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI HEMATOLOGIA - TRANSPLANTE MEDULA OSSEA 08",
+    "nome_original": "UI HEMATOLOGIA - TRANSPLANTE MEDULA OSSEA 08",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA DO SERVICO DE HEMATOLOGIA",
+    "nome_original": "[E1MH] - ENFERMARIA DO SERVICO DE HEMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA HEMATOLOGIA",
+    "nome_original": "[EUG4] - ENFERMARIA HEMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DE TRANSPLANTE DE MEDULA OSSEA",
+    "nome_original": "[ETMO] - ENFERMARIA DE TRANSPLANTE DE MEDULA OSSEA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI QUEIMADOS 08",
+    "nome_original": "UI QUEIMADOS 08",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA CIRURGIA PLASTICA",
+    "nome_original": "[E1CPL] - ENFERMARIA CIRURGIA PLASTICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA SVS DE QUEIMADURAS",
+    "nome_original": "[EQUE] - ENFERMARIA SVS DE QUEIMADURAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI REUMATOLOGIA 08",
+    "nome_original": "UI REUMATOLOGIA 08",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF PRONTO SOCORRO REUMATOLOGIA",
+    "nome_original": "[EPSRE] - ENF PRONTO SOCORRO REUMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA SVS DE REUMATOLOGIA",
+    "nome_original": "[E2MR] - ENFERMARIA SVS DE REUMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "UI CIRURGIA VASCULAR 07",
+    "nome_original": "UI CIRURGIA VASCULAR 07",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF PRONTO SOCORRO CIRURGIA VASCULAR",
+    "nome_original": "[EPSCV] - ENF PRONTO SOCORRO CIRURGIA VASCULAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DO SERVICO DE CIRURGIA VASCULAR",
+    "nome_original": "[E1CV] - ENFERMARIA DO SERVICO DE CIRURGIA VASCULAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI ENDOCRINOLOGIA - IMUNOLOGIA 07",
+    "nome_original": "UI ENDOCRINOLOGIA - IMUNOLOGIA 07",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA SVS ENDOCRINOLOGIA E METABOLOGIA",
+    "nome_original": "[E1MN] - ENFERMARIA SVS ENDOCRINOLOGIA E METABOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DE TRANSEXUAIS",
+    "nome_original": "[TRANS] - ENFERMARIA DE TRANSEXUAIS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DO SERVICO DE IMUNOLOGIA",
+    "nome_original": "[E1MA] - ENFERMARIA DO SERVICO DE IMUNOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI NEFROLOGIA 07",
+    "nome_original": "UI NEFROLOGIA 07",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "CLINICA MEDICA DIALISE",
+    "nome_original": "[E1MY] - CLINICA MEDICA DIALISE",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DE DIALISE PERITONEAL INTERMITENTE",
+    "nome_original": "[EDPI] - ENFERMARIA DE DIALISE PERITONEAL INTERMITENTE",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA LIGA DE HIPERTENSAO",
+    "nome_original": "[ELGH] - ENFERMARIA LIGA DE HIPERTENSAO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA PARA INTERNADOS,TRATAM. INTENSIVO",
+    "nome_original": "[EMRX] - ENFERMARIA PARA INTERNADOS,TRATAM. INTENSIVO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DO SERVICO DE CIRURGIA DO ESOFAGO",
+    "nome_original": "[E2CE] - ENFERMARIA DO SERVICO DE CIRURGIA DO ESOFAGO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DO SERVICO DE NEFROLOGIA",
+    "nome_original": "[E1MR] - ENFERMARIA DO SERVICO DE NEFROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PRONTO SOCORRO NEFROLOGIA",
+    "nome_original": "[EPSNF] - ENF PRONTO SOCORRO NEFROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "[ENCP] ENF CUIDADOS PALIATIVOS",
+    "nome_original": "[ENCP] ENF CUIDADOS PALIATIVOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF RET EMERG CIR VASCULAR",
+    "nome_original": "[EPSV1] - ENF RET EMERG CIR VASCULAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "[EICRO] ENF INTERCORRENCIAS CRONICOS",
+    "nome_original": "[EICRO] ENF INTERCORRENCIAS CRONICOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI TRANSPLANTE RENAL 07",
+    "nome_original": "UI TRANSPLANTE RENAL 07",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA SVS TRANSPLANTE RENAL",
+    "nome_original": "[EUTR] - ENFERMARIA SVS TRANSPLANTE RENAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PS TRANSPL RENAL",
+    "nome_original": "[EPSTR] - ENF PS TRANSPL RENAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI UROLOGIA 07",
+    "nome_original": "UI UROLOGIA 07",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA UROLOGIA UTI",
+    "nome_original": "[EURX] - ENFERMARIA UROLOGIA UTI",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DO SVS. DE UROLOGIA-ESPECIALIZADA",
+    "nome_original": "[EURE] - ENFERMARIA DO SVS. DE UROLOGIA-ESPECIALIZADA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PRONTO SOCORRO UROLOGIA",
+    "nome_original": "[EPSUR] - ENF PRONTO SOCORRO UROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF 07 GS",
+    "nome_original": "[E7GS] - ENF 07 GS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI GERIATRIA 06",
+    "nome_original": "UI GERIATRIA 06",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF PRONTO SOCORRO GERIATRIA",
+    "nome_original": "[EPSGE] - ENF PRONTO SOCORRO GERIATRIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA SVS DE GERIATRIA",
+    "nome_original": "[E2MV] - ENFERMARIA SVS DE GERIATRIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF RET EMERG GERIATRIA",
+    "nome_original": "[EPSG1] - ENF RET EMERG GERIATRIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI OFTALMOLOGIA 06",
+    "nome_original": "UI OFTALMOLOGIA 06",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF 06 GS",
+    "nome_original": "[E6GS] - ENF 06 GS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PS OFTALMOLOGIA EMERG",
+    "nome_original": "[EPSF] - ENF PS OFTALMOLOGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DV CLINICA OFTALMOLOGICA",
+    "nome_original": "[EOFT] - ENFERMARIA DV CLINICA OFTALMOLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI OTORRINOLARINGOLOGIA 06",
+    "nome_original": "UI OTORRINOLARINGOLOGIA 06",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF. DV DE CLINICA OTORRINOLARINGOLOGICA",
+    "nome_original": "[EORL] - ENF. DV DE CLINICA OTORRINOLARINGOLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI EMERG CIRURGIA 05",
+    "nome_original": "UI EMERG CIRURGIA 05",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF PS CIRURGIA EMERG",
+    "nome_original": "[EP5C] - ENF PS CIRURGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PS NEUROCIRURGIA EMERG",
+    "nome_original": "[EPNC] - ENF PS NEUROCIRURGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI 05 DS",
+    "nome_original": "UI 05 DS",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF PS CLINICA MEDICA EMERG",
+    "nome_original": "[EP5M] - ENF PS CLINICA MEDICA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF RETAGUARDA EMERG 05 DS",
+    "nome_original": "[E5DS] - ENF RETAGUARDA EMERG 05 DS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF 08 GN",
+    "nome_original": "[E8GN] - ENF 08 GN",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF CONVÊNIOS E PARTICULARES",
+    "nome_original": "[ECNP] - ENF CONVÊNIOS E PARTICULARES",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF COVID 04 GN",
+    "nome_original": "[E4GN] - ENF COVID 04 GN",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DO SERVICO DE UROLOGIA PEDIATRICA",
+    "nome_original": "[EURP] - ENFERMARIA DO SERVICO DE UROLOGIA PEDIATRICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DV DE CLINICA UROLOGICA",
+    "nome_original": "[EURO] - ENFERMARIA DV DE CLINICA UROLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF 07 GN",
+    "nome_original": "[E7GN] - ENF 07 GN",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF ALTA ROTATIVIDADE",
+    "nome_original": "[EAR] - ENF ALTA ROTATIVIDADE",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI NEUROLOGIA CLINICA",
+    "nome_original": "UI NEUROLOGIA CLINICA",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA NEUROCIRURGIA CONVENIOS",
+    "nome_original": "[ENCRC] - ENFERMARIA NEUROCIRURGIA CONVENIOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DO SVS DE NEUROLOGIA INFANTIL",
+    "nome_original": "[ENEP] - ENFERMARIA DO SVS DE NEUROLOGIA INFANTIL",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DO SVS NEUROLOGIA SEMI-INTENSIVO",
+    "nome_original": "[ENES] - ENFERMARIA DO SVS NEUROLOGIA SEMI-INTENSIVO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DO SVS DE NEUROLOGIA CLINICA",
+    "nome_original": "[ENEU] - ENFERMARIA DO SVS DE NEUROLOGIA CLINICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DO SVS DE NEUROLOGIA - CONVENIOS",
+    "nome_original": "[ENEUC] - ENFERMARIA DO SVS DE NEUROLOGIA - CONVENIOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA SVS NEUROLOGIA CLINICA",
+    "nome_original": "[ENCL] - ENFERMARIA SVS NEUROLOGIA CLINICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PRONTO NEUROCLINICA",
+    "nome_original": "[EPSNE] - ENF PRONTO NEUROCLINICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA SVS NEUROLOGIA SUPORTE CRITICO",
+    "nome_original": "[ENSC] - ENFERMARIA SVS NEUROLOGIA SUPORTE CRITICO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI CLINICA MEDICA 06",
+    "nome_original": "UI CLINICA MEDICA 06",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA DO SERVICO DE CLINICA GERAL",
+    "nome_original": "[ECMG] - ENFERMARIA DO SERVICO DE CLINICA GERAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PRONTO SOCORRO CLINICA MEDICA",
+    "nome_original": "[EPSCM] - ENF PRONTO SOCORRO CLINICA MEDICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF RETAGUARDA EMERG 06 DS",
+    "nome_original": "[E6DS] - ENF RETAGUARDA EMERG 06 DS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF RETAGUARDA EMERG 06 DN",
+    "nome_original": "[E6DN] - ENF RETAGUARDA EMERG 06 DN",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI EMERG AB 04",
+    "nome_original": "UI EMERG AB 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA GERAL DE PRONTO SOCORRO",
+    "nome_original": "[EGPS] - ENFERMARIA GERAL DE PRONTO SOCORRO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PS NEUROLOGIA EMERG",
+    "nome_original": "[EPSN] - ENF PS NEUROLOGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PS QUEIMADOS EMERG",
+    "nome_original": "[EPSQ] - ENF PS QUEIMADOS EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PS UROLOGIA EMERG",
+    "nome_original": "[EPSU] - ENF PS UROLOGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PS CIRURGIA VASCULAR EMERG",
+    "nome_original": "[EPSV] - ENF PS CIRURGIA VASCULAR EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA PRONTO SOCORRO CLINICA",
+    "nome_original": "[EP4M] - ENFERMARIA PRONTO SOCORRO CLINICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI MOLESTIAS INFECCIOSAS 04",
+    "nome_original": "UI MOLESTIAS INFECCIOSAS 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF. DV CLINICA DE MOL. INFEC. PARASITARIAS",
+    "nome_original": "[EMIN] - ENF. DV CLINICA DE MOL. INFEC. PARASITARIAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA UNIDADE TETANO",
+    "nome_original": "[EMIX] - ENFERMARIA UNIDADE TETANO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PRONTO SOCORRO MOLESTIAS INFECCIOSAS",
+    "nome_original": "[EPSMI] - ENF PRONTO SOCORRO MOLESTIAS INFECCIOSAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI DERMATOLOGIA 03",
+    "nome_original": "UI DERMATOLOGIA 03",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA DV DE CLINICA DE DERMATOLOGICA",
+    "nome_original": "[EDER] - ENFERMARIA DV DE CLINICA DE DERMATOLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DO SERVICO DE CIR. DERMATOLOGICA",
+    "nome_original": "[EDED] - ENFERMARIA DO SERVICO DE CIR. DERMATOLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DERMATOLOGIA",
+    "nome_original": "[DER] - ENFERMARIA DERMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF RETAGUARDA EMERG 03 DS",
+    "nome_original": "[E3DS] - ENF RETAGUARDA EMERG 03 DS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF DV ODONTOLOGIA",
+    "nome_original": "[EODO] - ENF DV ODONTOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "[E2CT] ENF CIRURGIA TORÁCICA",
+    "nome_original": "[E2CT] ENF CIRURGIA TORÁCICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI EMERG CIRURGIA 03",
+    "nome_original": "UI EMERG CIRURGIA 03",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UI VIDEO EEG",
+    "nome_original": "UI VIDEO EEG",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF VIDEO EEG",
+    "nome_original": "[EVEEG] - ENF VIDEO EEG",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI 04 DS",
+    "nome_original": "UI 04 DS",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF 04 DN",
+    "nome_original": "[E4DN] - ENF 04 DN",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA SERVICO DE CIRURGIA PULMONAR",
+    "nome_original": "[E1CT] - ENFERMARIA SERVICO DE CIRURGIA PULMONAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI SAÚDE SUPLEMENTAR",
+    "nome_original": "UI SAÚDE SUPLEMENTAR",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA DE CONVENIOS - GERAL",
+    "nome_original": "[ECNV] - ENFERMARIA DE CONVENIOS - GERAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI 05 GN",
+    "nome_original": "UI 05 GN",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA SVS DE NEUROLOGIA INFANTIL",
+    "nome_original": "[ENEI] - ENFERMARIA SVS DE NEUROLOGIA INFANTIL",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA SVS DE NEUROCIRURGIA ELETIVA",
+    "nome_original": "[ENCR] - ENFERMARIA SVS DE NEUROCIRURGIA ELETIVA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF NEUROCIR FUNCIONAL",
+    "nome_original": "[ENCF] - ENF NEUROCIR FUNCIONAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI RETAG EMERG CIRURG GERAL 08",
+    "nome_original": "UI RETAG EMERG CIRURG GERAL 08",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UI EMERG GERAL CLÍNICA E CIRÚRGICA 04",
+    "nome_original": "UI EMERG GERAL CLÍNICA E CIRÚRGICA 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SAGUÃO UER",
+    "nome_original": "[EPSSA] - SAGUÃO UER",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA DE EMERG CLÍNICA",
+    "nome_original": "[EPSEM] - SALA DE EMERG CLÍNICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA DE TRAUMA",
+    "nome_original": "[EPSC3] - SALA DE TRAUMA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI SAÚDE SUPLEMENTAR 03 - CAM",
+    "nome_original": "UI SAÚDE SUPLEMENTAR 03 - CAM",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF CENTRO ATEND MÉDICO",
+    "nome_original": "[ECAM] - ENF CENTRO ATEND MÉDICO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF INFUSÃO INTRATECAL",
+    "nome_original": "[EBGEN] - ENF INFUSÃO INTRATECAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI EMERG GERAL DECISÃO CLÍNICA 04CC",
+    "nome_original": "UI EMERG GERAL DECISÃO CLÍNICA 04CC",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF DE DECISÃO CLÍNICA",
+    "nome_original": "[EPSAA] - ENF DE DECISÃO CLÍNICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI GASTROCIRURGIA 09CC",
+    "nome_original": "UI GASTROCIRURGIA 09CC",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF 09GS",
+    "nome_original": "[E9GS] - ENF 09GS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF TEMPORARIA 09CC",
+    "nome_original": "[E09CC] - ENF TEMPORARIA 09CC",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI 03 DN",
+    "nome_original": "UI 03 DN",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF 03 DN",
+    "nome_original": "[E03DN] - ENF 03 DN",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI EMERG GERAL DECISAO CLINICA 04AA",
+    "nome_original": "UI EMERG GERAL DECISAO CLINICA 04AA",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF DECISAO CLINICA 04AA",
+    "nome_original": "[EPSDC] - ENF DECISAO CLINICA 04AA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UI RETAG EMERG CLINICA 04CC",
+    "nome_original": "UI RETAG EMERG CLINICA 04CC",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENF RETAG EMERG CLINICA 04CC",
+    "nome_original": "[E04CC] - ENF RETAG EMERG CLINICA 04CC",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO NAO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI 09 PAMB",
+    "nome_original": "UTI 09 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UTI APOIO CIRURGICO",
+    "nome_original": "[UARR] - UTI APOIO CIRURGICO",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI SERVICO DE QUEIMADURAS",
+    "nome_original": "[UQUE] - UTI SERVICO DE QUEIMADURAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI CIRURGIA APARELHO DIGESTIVO 09",
+    "nome_original": "UTI CIRURGIA APARELHO DIGESTIVO 09",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UTI DA DIVISAO DE CLINICA CIRURGICA II",
+    "nome_original": "[U2CC] - UTI DA DIVISAO DE CLINICA CIRURGICA II",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI SERVICO DE CIRURGIA EXPERIMENTAL",
+    "nome_original": "[U1CH] - UTI SERVICO DE CIRURGIA EXPERIMENTAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI DA DIVISAO DE CLINICA CIRURGICA I",
+    "nome_original": "[U1CC] - UTI DA DIVISAO DE CLINICA CIRURGICA I",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI QUEIMADOS 08",
+    "nome_original": "UTI QUEIMADOS 08",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ENFERMARIA UTI QUEIMADOS",
+    "nome_original": "[EQEX] - ENFERMARIA UTI QUEIMADOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI NEFRO-VASCULAR 07",
+    "nome_original": "UTI NEFRO-VASCULAR 07",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UTI SERVICO DE NEFROLOGIA",
+    "nome_original": "[U1MR] - UTI SERVICO DE NEFROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "NEFROLOGIA - UTI",
+    "nome_original": "[UTI] - NEFROLOGIA - UTI",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI EMERG CIRURGIA - TRAUMA 04",
+    "nome_original": "UTI EMERG CIRURGIA - TRAUMA 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UTI PS NEUROCIRURGIA EMERG",
+    "nome_original": "[UP4NC] - UTI PS NEUROCIRURGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI PS CIRURGIA EMERG",
+    "nome_original": "[UPSC] - UTI PS CIRURGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI EMERG PS CIRURGIA",
+    "nome_original": "[UP4C] - UTI EMERG PS CIRURGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI 04 GN",
+    "nome_original": "UTI 04 GN",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UTI 04 CC",
+    "nome_original": "[U4CC] - UTI 04 CC",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI RET EMERG CLINICA",
+    "nome_original": "[U4GN] - UTI RET EMERG CLINICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI 08 GS",
+    "nome_original": "UTI 08 GS",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UTI COVID",
+    "nome_original": "[UCOV1] - UTI COVID",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI 11 EE",
+    "nome_original": "UTI 11 EE",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UTI 11 EE",
+    "nome_original": "[U11EE] - UTI 11 EE",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI CIRÚRGICA",
+    "nome_original": "[UCIR] - UTI CIRÚRGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI DA DIVISAO DE CLINICA OBSTETRICA",
+    "nome_original": "[UOBS] - UTI DA DIVISAO DE CLINICA OBSTETRICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI PEDIATRICA 11",
+    "nome_original": "[UPED] - UTI PEDIATRICA 11",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI 11 GN",
+    "nome_original": "UTI 11 GN",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UTI 11 CLINICA MEDICA EMERG ALA GN",
+    "nome_original": "[U11GN] - UTI 11 CLINICA MEDICA EMERG ALA GN",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI 11 CONVENIOS",
+    "nome_original": "[U11CV] - UTI 11 CONVENIOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI 11 GS",
+    "nome_original": "UTI 11 GS",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UTI 11 CLINICA MEDICA EMERG ALA GS",
+    "nome_original": "[U11GS] - UTI 11 CLINICA MEDICA EMERG ALA GS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI 11 DN",
+    "nome_original": "UTI 11 DN",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UTI 11 DN",
+    "nome_original": "[U11DN] - UTI 11 DN",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI CLINICA MEDICA EMERGENCIA",
+    "nome_original": "[UCME] - UTI CLINICA MEDICA EMERGENCIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI 11 FF",
+    "nome_original": "UTI 11 FF",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UTI 11 FF",
+    "nome_original": "[U11FF] - UTI 11 FF",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI EMERG CLINICAS",
+    "nome_original": "[UEMER] - UTI EMERG CLINICAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI 11 DS",
+    "nome_original": "UTI 11 DS",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UTI DV CLINICA DE MOLESTIAS I. PARASITARIAS",
+    "nome_original": "[UMIN] - UTI DV CLINICA DE MOLESTIAS I. PARASITARIAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UTI CIRURGICA 03",
+    "nome_original": "UTI CIRURGICA 03",
+    "tipo": "Centro de Custo",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UTI CIRURGICA 03",
+    "nome_original": "[UCIR3] - UTI CIRURGICA 03",
+    "tipo": "Centro de Receita",
+    "agrupador": "INTERNAMENTO CRITICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA - CEDMAC 06 PAMB",
+    "nome_original": "HOSPITAL DIA - CEDMAC 06 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "CEDMAC - CENT. DISP. MEDICACAO DE ALTO CUSTO",
+    "nome_original": "[CDMAC] - CEDMAC - CENT. DISP. MEDICACAO DE ALTO CUSTO",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA GERAL 05 PAMB",
+    "nome_original": "HOSPITAL DIA GERAL 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ATENDIMENTO HOSPITAL DIA",
+    "nome_original": "[HDI] - ATENDIMENTO HOSPITAL DIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO BREVE DO HOSPITAL DIA",
+    "nome_original": "[THDI] - AMBULATORIO BREVE DO HOSPITAL DIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERV APOIO ATEND/TO TERAPEUTICO AMBULATORIAL",
+    "nome_original": "[STA] - SERV APOIO ATEND/TO TERAPEUTICO AMBULATORIAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA",
+    "nome_original": "[HDI] - HOSPITAL DIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA / SERVICO DE GERIATRIA",
+    "nome_original": "[EHDGE] - HOSPITAL DIA / SERVICO DE GERIATRIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA GERIATRICO",
+    "nome_original": "[HDIG] - HOSPITAL DIA GERIATRICO",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA TRANSPLANTE RENAL",
+    "nome_original": "[EHDTR] - HOSPITAL DIA TRANSPLANTE RENAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA PEQUENA CIRURGIA",
+    "nome_original": "[EHDCC] - HOSPITAL DIA PEQUENA CIRURGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA POLTRONAS",
+    "nome_original": "[EHDI] - HOSPITAL DIA POLTRONAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA ENDOSCOPIA",
+    "nome_original": "[EHDED] - HOSPITAL DIA ENDOSCOPIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA ANESTESIA",
+    "nome_original": "[HDIA] - HOSPITAL DIA ANESTESIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA OTORRINOLARINGOLOGIA",
+    "nome_original": "[HDIO] - HOSPITAL DIA OTORRINOLARINGOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA HEMATOLOGIA 01 PAMB",
+    "nome_original": "HOSPITAL DIA HEMATOLOGIA 01 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "HOSPITAL DIA TRANSPLANTE MEDULA OSSEA",
+    "nome_original": "[HDTMO] - HOSPITAL DIA TRANSPLANTE MEDULA OSSEA",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA HEMATOLOGIA GERAL",
+    "nome_original": "[HDHEG] - HOSPITAL DIA HEMATOLOGIA GERAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA CAM",
+    "nome_original": "HOSPITAL DIA CAM",
+    "tipo": "Centro de Custo",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ATENDIMENTO HOSPITAL DIA CAM",
+    "nome_original": "[HDCAM] - ATENDIMENTO HOSPITAL DIA CAM",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PRONTO ATENDIMENTO CAM",
+    "nome_original": "PRONTO ATENDIMENTO CAM",
+    "tipo": "Centro de Custo",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO DE PRONTO ATENDIMENTO DE CONVENIOS",
+    "nome_original": "[CSPA] - SERVICO DE PRONTO ATENDIMENTO DE CONVENIOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA REUMATOLOGIA 08 DS",
+    "nome_original": "HOSPITAL DIA REUMATOLOGIA 08 DS",
+    "tipo": "Centro de Custo",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "HOSPITAL DIA REUMATOLOGIA",
+    "nome_original": "[EHDMR] - HOSPITAL DIA REUMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB HOSPITAL DIA REUMATOLOGIA",
+    "nome_original": "[AHDMR] - AMB HOSPITAL DIA REUMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "HOSPITAL DIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PRONTO SOCORRO ATENDIMENTO INICIAL 04CC",
+    "nome_original": "PRONTO SOCORRO ATENDIMENTO INICIAL 04CC",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ATEND INICIAL PS",
+    "nome_original": "[AIPS] - ATEND INICIAL PS",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATEND PS TRIAGEM",
+    "nome_original": "[APST] - ATEND PS TRIAGEM",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PRONTO SOCORRO GERAL 04",
+    "nome_original": "PRONTO SOCORRO GERAL 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ATEND PS CIRURGIA EMERG",
+    "nome_original": "[APSC] - ATEND PS CIRURGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATEND PS CLINICA MEDICA EMERG",
+    "nome_original": "[APSM] - ATEND PS CLINICA MEDICA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICO APOIO AOS ATENDIMENTOS DE EMERGENCIA",
+    "nome_original": "[AAE] - SERVICO APOIO AOS ATENDIMENTOS DE EMERGENCIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PRONTO SOCORRO CLINICA GERAL (SETU)",
+    "nome_original": "[APSS] - PRONTO SOCORRO CLINICA GERAL (SETU)",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATEND PS UROLOGIA EMERG",
+    "nome_original": "[APSU] - ATEND PS UROLOGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATEND PS CIRURGIA VASCULAR EMERG",
+    "nome_original": "[APSV] - ATEND PS CIRURGIA VASCULAR EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATEND PS QUEIMADOS EMERG",
+    "nome_original": "[APSQ] - ATEND PS QUEIMADOS EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATEND PS CIRURGIA PLASTICA EMERG",
+    "nome_original": "[APSPL] - ATEND PS CIRURGIA PLASTICA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATEND PS NEUROLOGIA EMERG",
+    "nome_original": "[APSN] - ATEND PS NEUROLOGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATENDIMENTO PRONTO SOCORRO ELETROCARDIOGRAMA",
+    "nome_original": "[APSEC] - ATENDIMENTO PRONTO SOCORRO ELETROCARDIOGRAMA",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATEND PS NEUROCIRURGIA EMERG",
+    "nome_original": "[APSNC] - ATEND PS NEUROCIRURGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PRONTO SOCORRO GINECO - OBSTETRICIA 10",
+    "nome_original": "PRONTO SOCORRO GINECO - OBSTETRICIA 10",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ATEND PS GINECOLOGIA EMERG",
+    "nome_original": "[APSG] - ATEND PS GINECOLOGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATEND PS OBSTETRICIA EMERG",
+    "nome_original": "[APSO] - ATEND PS OBSTETRICIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PS OBSTETRICIA EMERG",
+    "nome_original": "[EPSO] - ENF PS OBSTETRICIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PS GINECOLOGIA EMERG",
+    "nome_original": "[EPSG] - ENF PS GINECOLOGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PRONTO SOCORRO OFTALMO - OTORRINO 04",
+    "nome_original": "PRONTO SOCORRO OFTALMO - OTORRINO 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ATEND PS OFTALMOLOGIA EMERG",
+    "nome_original": "[APSF] - ATEND PS OFTALMOLOGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATEND PS OTORRINOLARINGOLOGIA EMERG",
+    "nome_original": "[APSR] - ATEND PS OTORRINOLARINGOLOGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENF PS OTORRINOLARINGOLOGIA EMERG",
+    "nome_original": "[EPSR] - ENF PS OTORRINOLARINGOLOGIA EMERG",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PRONTO SOCORRO ATEND.MULTIDISCIPLINAR 04",
+    "nome_original": "PRONTO SOCORRO ATEND.MULTIDISCIPLINAR 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ATEND PS PSICOLOGIA",
+    "nome_original": "[APSP] - ATEND PS PSICOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATEND PS SERVICO SOCIAL",
+    "nome_original": "[APSSS] - ATEND PS SERVICO SOCIAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATENDIMENTOS DE ENFERMAGEM",
+    "nome_original": "[PSENF] - ATENDIMENTOS DE ENFERMAGEM",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATEND PS ENFERMAGEM",
+    "nome_original": "[APSE] - ATEND PS ENFERMAGEM",
+    "tipo": "Centro de Receita",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA CONSULTORIOS PS CENTRAL - SPSCO 04",
+    "nome_original": "SALA CONSULTORIOS PS CENTRAL - SPSCO 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA MEDICACAO - INALACAO - SPSMD 04",
+    "nome_original": "SALA MEDICACAO - INALACAO - SPSMD 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA PROCEDIMENTOS - SPSPR 04",
+    "nome_original": "SALA PROCEDIMENTOS - SPSPR 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA SAGUAO - SPSSA 04",
+    "nome_original": "SALA SAGUAO - SPSSA 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA EMERG CIRURGIA - SPSC 04",
+    "nome_original": "SALA EMERG CIRURGIA - SPSC 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA EMERG CLINICA MEDICA - SPSM 04",
+    "nome_original": "SALA EMERG CLINICA MEDICA - SPSM 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA ESPERA CONSULTORIOS - SPSEC 04",
+    "nome_original": "SALA ESPERA CONSULTORIOS - SPSEC 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA ESPERA OFTALMO - OTORRINO - SPEFR 04",
+    "nome_original": "SALA ESPERA OFTALMO - OTORRINO - SPEFR 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA ESPERA REAVALIACAO - SPSER 04",
+    "nome_original": "SALA ESPERA REAVALIACAO - SPSER 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA MEDICACAO GINECO - OBSTETRICIA - SPSGO 10",
+    "nome_original": "SALA MEDICACAO GINECO - OBSTETRICIA - SPSGO 10",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA MEDICACAO OFTALMO - OTORRINO - SPSFR 04",
+    "nome_original": "SALA MEDICACAO OFTALMO - OTORRINO - SPSFR 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SALA POLTRONAS - SPSPO 04",
+    "nome_original": "SALA POLTRONAS - SPSPO 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "URGENCIA",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB OBSTETRICIA 10 PAMB",
+    "nome_original": "AMB OBSTETRICIA 10 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMB BREVE DA DIV DA CLINICA OBSTETRICA",
+    "nome_original": "[TOBS] - AMB BREVE DA DIV DA CLINICA OBSTETRICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE GESTACAO NORMAL",
+    "nome_original": "[AOGN] - AMBULATORIO DE GESTACAO NORMAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE GESTACAO PATOLOGICA",
+    "nome_original": "[AOGP] - AMBULATORIO DE GESTACAO PATOLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB CIRURGIA APARELHO DIGESTIVO - PULMONAR 06 PAMB",
+    "nome_original": "AMB CIRURGIA APARELHO DIGESTIVO - PULMONAR 06 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO DE TRIAGEM DA CIR. AP. DIGESTIVO",
+    "nome_original": "[T2CC] - AMBULATORIO DE TRIAGEM DA CIR. AP. DIGESTIVO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "CAMPANHA MUTIRAO DE OBESIDADE",
+    "nome_original": "[T2CG] - CAMPANHA MUTIRAO DE OBESIDADE",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICO DE CIRURGIA DO ESOFAGO",
+    "nome_original": "[2CE] - SERVICO DE CIRURGIA DO ESOFAGO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB. SERV. CIR. VIAS BILIARES E PANCREAS",
+    "nome_original": "[A2CB] - AMB. SERV. CIR. VIAS BILIARES E PANCREAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE CIRURGIA DO ESOFAGO",
+    "nome_original": "[A2CE] - AMBULATORIO DO SERVICO DE CIRURGIA DO ESOFAGO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB. DO SERV. CIRURGIA DO ESTOMAGO E DUODENO",
+    "nome_original": "[A2CG] - AMB. DO SERV. CIRURGIA DO ESTOMAGO E DUODENO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB. DO SERV. CIR. DE FIGADO HIPERT. PORTAL",
+    "nome_original": "[A2CH] - AMB. DO SERV. CIR. DE FIGADO HIPERT. PORTAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB. DO SERVICO DE CIRURGIA LAPAROSCOPICA",
+    "nome_original": "[A2CL] - AMB. DO SERVICO DE CIRURGIA LAPAROSCOPICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB UNID DE CIR BARIATRICA E METABOLICA (AC)",
+    "nome_original": "[A2CO] - AMB UNID DE CIR BARIATRICA E METABOLICA (AC)",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO SVS DE CIRURGIA DE COLON E RETO",
+    "nome_original": "[A2CR] - AMBULATORIO SVS DE CIRURGIA DE COLON E RETO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "NUTROLOGIA",
+    "nome_original": "[NUTRO] - NUTROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LABORATORIO DE FISIOLOGIA COLORRETOANAL",
+    "nome_original": "[LFCA] - LABORATORIO DE FISIOLOGIA COLORRETOANAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO BREVE SERV. DE CIRURGIA PULMONAR",
+    "nome_original": "[T1CT] - AMBULATORIO BREVE SERV. DE CIRURGIA PULMONAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LABORATORIO DE PROVAS FUNCIONAIS/PNEUMOLOGIA",
+    "nome_original": "[ALPF] - LABORATORIO DE PROVAS FUNCIONAIS/PNEUMOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE CIRURGIA PULMONAR",
+    "nome_original": "[A1CT] - AMBULATORIO DO SERVICO DE CIRURGIA PULMONAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB CIRURGIA GERAL - VASCULAR - CAB PESCOCO - DOR 06 PAMB",
+    "nome_original": "AMB CIRURGIA GERAL - VASCULAR - CAB PESCOCO - DOR 06 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "3 CLINICA CIRURGICA",
+    "nome_original": "[A3CC] - 3 CLINICA CIRURGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PAC. ENFERMARIA",
+    "nome_original": "[A3P6] - PAC. ENFERMARIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "1CC CABECA PESCOCO FONO",
+    "nome_original": "[A1CF] - 1CC CABECA PESCOCO FONO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "TRATAMENTO CANCER CAVIDADE ORAL",
+    "nome_original": "[TCCO] - TRATAMENTO CANCER CAVIDADE ORAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LIGA ARTERIOSCLEROSE",
+    "nome_original": "[ALCV] - LIGA ARTERIOSCLEROSE",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB CIRURGIA PLASTICA - QUEIMADOS 06 PAMB",
+    "nome_original": "AMB CIRURGIA PLASTICA - QUEIMADOS 06 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO BREVE DO SERVICO DE QUEIMADURAS",
+    "nome_original": "[TQUE] - AMBULATORIO BREVE DO SERVICO DE QUEIMADURAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE QUEIMADURAS",
+    "nome_original": "[AQUE] - AMBULATORIO DO SERVICO DE QUEIMADURAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE CIRURGIA PLASTICA",
+    "nome_original": "[ACPL] - AMBULATORIO DO SERVICO DE CIRURGIA PLASTICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB BREVE SERV CIRURGIA PLÁSTICA",
+    "nome_original": "[TCPL] - AMB BREVE SERV CIRURGIA PLÁSTICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB OFTALMOLOGIA 06 PAMB",
+    "nome_original": "AMB OFTALMOLOGIA 06 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "VBB \"AMBULATORIO\"",
+    "nome_original": "[TVBBA] - VBB \"AMBULATORIO\"",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO SERV. OFTALMOLOGIA ESPECIALIZADO",
+    "nome_original": "[AOFE] - AMBULATORIO SERV. OFTALMOLOGIA ESPECIALIZADO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERV. DE OFTALMOLOGIA GERAL",
+    "nome_original": "[AOFG] - AMBULATORIO DO SERV. DE OFTALMOLOGIA GERAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO OFTALMOLOGIA",
+    "nome_original": "[AOFT] - AMBULATORIO OFTALMOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE TRANSPLANTE DE CORNEA",
+    "nome_original": "[ATCO] - AMBULATORIO DE TRANSPLANTE DE CORNEA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "MUTIRAO DA OFTALMOLOGIA",
+    "nome_original": "[MUTOF] - MUTIRAO DA OFTALMOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "MUTIRAO CATARATA",
+    "nome_original": "[TO500] - MUTIRAO CATARATA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO BREVE DIV. CLINICA OFTALMOLOGICA",
+    "nome_original": "[TOFT] - AMBULATORIO BREVE DIV. CLINICA OFTALMOLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "VEJA BEM BRASIL - CAMPANHA OFTALMO TRIAGEM",
+    "nome_original": "[TVBB] - VEJA BEM BRASIL - CAMPANHA OFTALMO TRIAGEM",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB OFTALMO CAMPANHA",
+    "nome_original": "[AOFTC] - AMB OFTALMO CAMPANHA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB OTORRINOLARINGOLOGIA 06 PAMB",
+    "nome_original": "AMB OTORRINOLARINGOLOGIA 06 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO DE IMPLANTE COCLEAR",
+    "nome_original": "[AIC] - AMBULATORIO DE IMPLANTE COCLEAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE IMPLANTE COCLEAR - OPM",
+    "nome_original": "[AICOP] - AMBULATORIO DE IMPLANTE COCLEAR - OPM",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB. DO SERV. DE BUCOFARINGOLARINGOLOGIA",
+    "nome_original": "[AORB] - AMB. DO SERV. DE BUCOFARINGOLARINGOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE FONIATRIA",
+    "nome_original": "[AORF] - AMBULATORIO DO SERVICO DE FONIATRIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE OTORRINOLARINGOLOGIA",
+    "nome_original": "[AORL] - AMBULATORIO DE OTORRINOLARINGOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE OTOLOGIA",
+    "nome_original": "[AORO] - AMBULATORIO DO SERVICO DE OTOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERV. PLASTICA FUNCIONAL",
+    "nome_original": "[AORP] - AMBULATORIO DO SERV. PLASTICA FUNCIONAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE RINOLOGIA",
+    "nome_original": "[AORR] - AMBULATORIO DO SERVICO DE RINOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AUDIOMETRIA",
+    "nome_original": "[AUDIN] - AUDIOMETRIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "GERAL",
+    "nome_original": "[GERAL] - GERAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "EXAMES DE PAC. DO SISTEMAS UNIFICADO SAUDE",
+    "nome_original": "[SORL] - EXAMES DE PAC. DO SISTEMAS UNIFICADO SAUDE",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB BREVE DIV CLINICA OTORRINOLARINGOLOGICA",
+    "nome_original": "[TORL] - AMB BREVE DIV CLINICA OTORRINOLARINGOLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB PROTESE OSTEOANCORADA",
+    "nome_original": "[OSTEO] - AMB PROTESE OSTEOANCORADA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB DE GENETICA",
+    "nome_original": "[AGENE] - AMB DE GENETICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB NEUROLOGIA / AMB NEOROCIRURGIA 06 PAMB",
+    "nome_original": "AMB NEUROLOGIA / AMB NEOROCIRURGIA 06 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO DO SERV. NEUROLOGIA INFANTIL",
+    "nome_original": "[ANEI] - AMBULATORIO DO SERV. NEUROLOGIA INFANTIL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB BREVE NEUROLOGIA CLINICA",
+    "nome_original": "[TNCL] - AMB BREVE NEUROLOGIA CLINICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE NEUROLOGIA CLINICA",
+    "nome_original": "[ANCL] - AMBULATORIO DO SERVICO DE NEUROLOGIA CLINICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB BREVE NEURO INFANTIL",
+    "nome_original": "[TNEI] - AMB BREVE NEURO INFANTIL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO NEUROLOGIA BIOPSIA MUSCULAR",
+    "nome_original": "[ANBM] - AMBULATORIO NEUROLOGIA BIOPSIA MUSCULAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO NEUROCIRURGIA ELETIVA",
+    "nome_original": "[ANCR] - AMBULATORIO DO SERVICO NEUROCIRURGIA ELETIVA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE NEUROCIRURGIA - CONVENIO",
+    "nome_original": "[ANCRC] - AMBULATORIO DE NEUROCIRURGIA - CONVENIO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO BREVE DIV. CLINICA NEUROCIRURGICA",
+    "nome_original": "[TNEC] - AMBULATORIO BREVE DIV. CLINICA NEUROCIRURGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PROCEDIMENTO DE BIOPSIA DE MUSCULO DA NEUROLOGIA",
+    "nome_original": "[BMNCL] - PROCEDIMENTO DE BIOPSIA DE MUSCULO DA NEUROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PROCEDIMENTO DE BIOPSIA DE NERVO DA NEUROLOGIA",
+    "nome_original": "[BNNCL] - PROCEDIMENTO DE BIOPSIA DE NERVO DA NEUROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB GINECOLOGIA 05 PAMB",
+    "nome_original": "AMB GINECOLOGIA 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMB. DO SERVICO DE ATIVIDADES ESPECIALIZADAS",
+    "nome_original": "[AGAE] - AMB. DO SERVICO DE ATIVIDADES ESPECIALIZADAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE GINECOLOGIA GERAL",
+    "nome_original": "[AGGE] - AMBULATORIO DO SERVICO DE GINECOLOGIA GERAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB BREVE DIVISAO DE CLINICA GINECOLOGICA",
+    "nome_original": "[TGIN] - AMB BREVE DIVISAO DE CLINICA GINECOLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB ENDOCRINOLOGIA - IMUNOLOGIA - GASTROENTEROLOGIA 05 PAMB",
+    "nome_original": "AMB ENDOCRINOLOGIA - IMUNOLOGIA - GASTROENTEROLOGIA 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMB BREVE DO SERVICO DE GASTROENTEROLOGIA",
+    "nome_original": "[T2MG] - AMB BREVE DO SERVICO DE GASTROENTEROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB. PROVAS FUNCIONAIS APARELHOS DIGESTIVOS",
+    "nome_original": "[GLAB] - LAB. PROVAS FUNCIONAIS APARELHOS DIGESTIVOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE GASTROENTEROLOGIA",
+    "nome_original": "[A2MG] - AMBULATORIO DO SERVICO DE GASTROENTEROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LABORATORIO AUTO-ANTICORPOS",
+    "nome_original": "[A2MGL] - LABORATORIO AUTO-ANTICORPOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "RADIOISOTOPOS",
+    "nome_original": "[A1MI] - RADIOISOTOPOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB. SERV. DE ENDOCRINOLOGIA E METABOLOGIA",
+    "nome_original": "[A1MN] - AMB. SERV. DE ENDOCRINOLOGIA E METABOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICO DE ENDOCRINOLOGIA E METABOLOGIA",
+    "nome_original": "[1MN] - SERVICO DE ENDOCRINOLOGIA E METABOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "1CM DIABETES",
+    "nome_original": "[A1MD] - 1CM DIABETES",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "1CM GERAL LIGA DIABETES",
+    "nome_original": "[ALGD] - 1CM GERAL LIGA DIABETES",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB. BREVE SERV. ENDOCRINOLOGIA E METABOLOGIA",
+    "nome_original": "[T1MN] - AMB. BREVE SERV. ENDOCRINOLOGIA E METABOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "TESTES COM BOMBEIROS/VOLUNTARIOS",
+    "nome_original": "[TCVG] - TESTES COM BOMBEIROS/VOLUNTARIOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE IMUNOLOGIA",
+    "nome_original": "[A1IS] - AMBULATORIO DO SERVICO DE IMUNOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO BREVE DO SERVICO DE IMUNOLOGIA",
+    "nome_original": "[T1IS] - AMBULATORIO BREVE DO SERVICO DE IMUNOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO INCONGRUENCIA DE GENERO",
+    "nome_original": "[AINCR] - AMBULATORIO INCONGRUENCIA DE GENERO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB GERIATRIA-HEMATO-CUIDADOS PALIATIVOS 05 PAMB",
+    "nome_original": "AMB GERIATRIA-HEMATO-CUIDADOS PALIATIVOS 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMB BREVE DO SERVICO DE HEMATOLOGIA",
+    "nome_original": "[T1MH] - AMB BREVE DO SERVICO DE HEMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO TRANSFUSIONAL",
+    "nome_original": "[ATRAN] - AMBULATORIO TRANSFUSIONAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE PUNCAO DE LINFONODOS",
+    "nome_original": "[APLIN] - AMBULATORIO DE PUNCAO DE LINFONODOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE IMUNOPATOLOGIA",
+    "nome_original": "[AIMUN] - AMBULATORIO DE IMUNOPATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE HEMOSTASIA",
+    "nome_original": "[AHEMO] - AMBULATORIO DE HEMOSTASIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB. DE SOROLOGIA DIAGNÓSTICA HEMATOLOGICA",
+    "nome_original": "[AHSOR] - AMB. DE SOROLOGIA DIAGNÓSTICA HEMATOLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE HEMATOLOGIA GERAL",
+    "nome_original": "[AHEMA] - AMBULATORIO DE HEMATOLOGIA GERAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE CITOGENETICA",
+    "nome_original": "[ACITO] - AMBULATORIO DE CITOGENETICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE BIOLOGIA TUMORAL",
+    "nome_original": "[ABTUM] - AMBULATORIO DE BIOLOGIA TUMORAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO BREVE DO SERVICO DE GERIATRIA",
+    "nome_original": "[T2MV] - AMBULATORIO BREVE DO SERVICO DE GERIATRIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE GERIATRIA",
+    "nome_original": "[A2MV] - AMBULATORIO DO SERVICO DE GERIATRIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATENDIMENTO E APLICACAO DE ACUPUNTURA",
+    "nome_original": "[ACUPG] - ATENDIMENTO E APLICACAO DE ACUPUNTURA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB NEFROLOGIA 05 PAMB",
+    "nome_original": "AMB NEFROLOGIA 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO BREVE SERVICO DE NEFROLOGIA",
+    "nome_original": "[T1MR] - AMBULATORIO BREVE SERVICO DE NEFROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LIGA DE HIPERTENSAO",
+    "nome_original": "[TLGH] - LIGA DE HIPERTENSAO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE NEFROLOGIA",
+    "nome_original": "[A1MR] - AMBULATORIO DO SERVICO DE NEFROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LABORATORIO DE NEFROLOGIA",
+    "nome_original": "[ALAN] - LABORATORIO DE NEFROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB UROLOGIA - TRANSPLANTE RENAL 05 PAMB",
+    "nome_original": "AMB UROLOGIA - TRANSPLANTE RENAL 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UROLOGIA",
+    "nome_original": "[AURO] - UROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO BREVE DIV. DE CLINICA UROLOGICA",
+    "nome_original": "[TURO] - AMBULATORIO BREVE DIV. DE CLINICA UROLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICO PROVISORIO PROSTATA - TRIAGEM",
+    "nome_original": "[TCAP] - SERVICO PROVISORIO PROSTATA - TRIAGEM",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LABORATORIO DE UROLOGIA",
+    "nome_original": "[ALUR] - LABORATORIO DE UROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO SERV. DE UROLOGIA ESPECIALIZADA",
+    "nome_original": "[AURE] - AMBULATORIO SERV. DE UROLOGIA ESPECIALIZADA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE UROLOGIA GERAL",
+    "nome_original": "[AURG] - AMBULATORIO DO SERVICO DE UROLOGIA GERAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERV. DE UROLOGIA PEDIATRICA",
+    "nome_original": "[AURP] - AMBULATORIO DO SERV. DE UROLOGIA PEDIATRICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERV. DE TRANSPLANTE RENAL",
+    "nome_original": "[AUTR] - AMBULATORIO DO SERV. DE TRANSPLANTE RENAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB MOLESTIAS INFECCIOSAS 05 PAMB",
+    "nome_original": "AMB MOLESTIAS INFECCIOSAS 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMB SVS CLIN. MOL. INFEC. PARA. ESPECIALIZADO",
+    "nome_original": "[AEMI] - AMB SVS CLIN. MOL. INFEC. PARA. ESPECIALIZADO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB SVS CLIN MOL. INFEC. PARASITARIAS GERAL",
+    "nome_original": "[AGMI] - AMB SVS CLIN MOL. INFEC. PARASITARIAS GERAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "MOLESTIAS INFECCIOSAS",
+    "nome_original": "[AMIN] - MOLESTIAS INFECCIOSAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB BREVE DE ESPECIALIDADES DE MOL. INFECC.",
+    "nome_original": "[TEMI] - AMB BREVE DE ESPECIALIDADES DE MOL. INFECC.",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB BREVE DIV CLINICA MOLESTIAS INFEC PARAS",
+    "nome_original": "[TMIN] - AMB BREVE DIV CLINICA MOLESTIAS INFEC PARAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PRONTO SOCORRO MOLESTIAS INFECCIOSAS",
+    "nome_original": "[APSI] - PRONTO SOCORRO MOLESTIAS INFECCIOSAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB DERMATOLOGIA 05 PAMB",
+    "nome_original": "AMB DERMATOLOGIA 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO SERVICO DE CIRURGIA DERMATOLOGICA",
+    "nome_original": "[ADED] - AMBULATORIO SERVICO DE CIRURGIA DERMATOLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO SVS DE DERMATOLOGIA ESPECIALIZADA",
+    "nome_original": "[ADEE] - AMBULATORIO SVS DE DERMATOLOGIA ESPECIALIZADA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB. BREVE DA DIVISAO CLINICA DERMATOLOGICA",
+    "nome_original": "[TDER] - AMB. BREVE DA DIVISAO CLINICA DERMATOLOGICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE DERMATOLOGIA GERAL",
+    "nome_original": "[ADEG] - AMBULATORIO DO SERVICO DE DERMATOLOGIA GERAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE PRONTO ATENDIMENTO",
+    "nome_original": "[ADEP] - AMBULATORIO DO SERVICO DE PRONTO ATENDIMENTO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "DERMATOLOGIA",
+    "nome_original": "[ADER] - DERMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "MAL DE HANSEN PACIENTE",
+    "nome_original": "[ADH1] - MAL DE HANSEN PACIENTE",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "MAL DE HANSEN CONTATO",
+    "nome_original": "[ADH2] - MAL DE HANSEN CONTATO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LIGA COMB. SIFILIS",
+    "nome_original": "[ALGS] - LIGA COMB. SIFILIS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATÓRIO DE NÚCLEO DE CUIDADOS PALIATIVAS",
+    "nome_original": "[ANCP] - AMBULATÓRIO DE NÚCLEO DE CUIDADOS PALIATIVAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB HEMOFILIA 01 PAMB",
+    "nome_original": "AMB HEMOFILIA 01 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO DE HEMOFILIA",
+    "nome_original": "[A1HEM] - AMBULATORIO DE HEMOFILIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB TRANSPLANTE E CIRURGIA FIGADO 04 PAMB",
+    "nome_original": "AMB TRANSPLANTE E CIRURGIA FIGADO 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMB TRANSPL FIGADO E ORGAOS DO APARELH DIGEST",
+    "nome_original": "[A1CH] - AMB TRANSPL FIGADO E ORGAOS DO APARELH DIGEST",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB. BREVE SERVICO DE CIRURGIA EXPERIMENTAL",
+    "nome_original": "[T1CH] - AMB. BREVE SERVICO DE CIRURGIA EXPERIMENTAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "HOSPITAL DIA TRANSPL CIRURGIA DO FIGADO",
+    "nome_original": "[HD1CH] - HOSPITAL DIA TRANSPL CIRURGIA DO FIGADO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB CLINICA MEDICA - AGD 04 PAMB",
+    "nome_original": "AMB CLINICA MEDICA - AGD 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE CLINICA GERAL",
+    "nome_original": "[ACMG] - AMBULATORIO DO SERVICO DE CLINICA GERAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE CHECK-UP E PROMOCAO DA SAUDE",
+    "nome_original": "[CHEC] - AMBULATORIO DE CHECK-UP E PROMOCAO DA SAUDE",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO GERAL E DIDATICO",
+    "nome_original": "[TAGD] - AMBULATORIO GERAL E DIDATICO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ACUPUNTURA",
+    "nome_original": "[ACUP] - ACUPUNTURA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB REPRODUCAO HUMANA 04 PAMB",
+    "nome_original": "AMB REPRODUCAO HUMANA 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO BREVE DA REPRODUCAO HUMANA",
+    "nome_original": "[TCRH] - AMBULATORIO BREVE DA REPRODUCAO HUMANA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO CENTRO DE REPRODUCAO HUMANA",
+    "nome_original": "[ACRH] - AMBULATORIO DO CENTRO DE REPRODUCAO HUMANA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB ANESTESIOLOGIA 04 PAMB",
+    "nome_original": "AMB ANESTESIOLOGIA 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "TRIAGEM DA ANESTESIA",
+    "nome_original": "[TANE] - TRIAGEM DA ANESTESIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE ANESTESIA",
+    "nome_original": "[AANE] - AMBULATORIO DE ANESTESIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB HEMATOLOGIA 01 PAMB",
+    "nome_original": "AMB HEMATOLOGIA 01 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMB DO TRANSPLANTE DE MEDULA OSSEA",
+    "nome_original": "[ATMO] - AMB DO TRANSPLANTE DE MEDULA OSSEA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO HOSPITAL DIA QUIMIOTERAPIA",
+    "nome_original": "[AHDQU] - AMBULATORIO DO HOSPITAL DIA QUIMIOTERAPIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE HEMATOLOGIA-TMO",
+    "nome_original": "[A1MH] - AMBULATORIO DO SERVICO DE HEMATOLOGIA-TMO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DE AFERESE TERAPEUTICA",
+    "nome_original": "[AAFER] - AMBULATORIO DE AFERESE TERAPEUTICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB SAUDE SUPLEMENTAR CAM",
+    "nome_original": "AMB SAUDE SUPLEMENTAR CAM",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMB INFUSÃO INTRATECAL",
+    "nome_original": "[ABGEN] - AMB INFUSÃO INTRATECAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB SAUDE SUPLEMENTAR CAM",
+    "nome_original": "[ACAM] - AMB SAUDE SUPLEMENTAR CAM",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB AVALIACAO E CONDICIONAMENTO EM REUMATOLOGIA - LACRE 04 PAMB",
+    "nome_original": "AMB AVALIACAO E CONDICIONAMENTO EM REUMATOLOGIA - LACRE 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AVALIACAO E CONDICIONAMENTO EM REUMATOLOGIA",
+    "nome_original": "[LACRE] - AVALIACAO E CONDICIONAMENTO EM REUMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB REUMATO-PNEUMO 05 PAMB",
+    "nome_original": "AMB REUMATO-PNEUMO 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "LIGA COMB. FEBRE REUMATICA",
+    "nome_original": "[ALGR] - LIGA COMB. FEBRE REUMATICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB BREVE DO SERVICO DE REUMATOLOGIA",
+    "nome_original": "[T2MR] - AMB BREVE DO SERVICO DE REUMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE REUMATOLOGIA",
+    "nome_original": "[A2MR] - AMBULATORIO DO SERVICO DE REUMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO BREVE DO SERVICO DE PNEUMOLOGIA",
+    "nome_original": "[T2MP] - AMBULATORIO BREVE DO SERVICO DE PNEUMOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATENDIMENTOS ESPECIAL PARA BOMBEIROS",
+    "nome_original": "[TGPB] - ATENDIMENTOS ESPECIAL PARA BOMBEIROS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO PNEUMOLOGIA FISIOTERAPIA",
+    "nome_original": "[APFIS] - AMBULATORIO PNEUMOLOGIA FISIOTERAPIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE PNEUMOLOGIA",
+    "nome_original": "[A2MP] - AMBULATORIO DO SERVICO DE PNEUMOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB TELEMEDICINA 05 PAMB",
+    "nome_original": "AMB TELEMEDICINA 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB REOUVIR",
+    "nome_original": "AMB REOUVIR",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMB APARELH AMPLIAÇÃO SONORA INDIVID",
+    "nome_original": "[AASIR] - AMB APARELH AMPLIAÇÃO SONORA INDIVID",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB CIRURGIA VASCULAR",
+    "nome_original": "AMB CIRURGIA VASCULAR",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO BREVE DO SERV. CIRURGIA VASCULAR",
+    "nome_original": "[T1CV] - AMBULATORIO BREVE DO SERV. CIRURGIA VASCULAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE CIRURGIA VASCULAR",
+    "nome_original": "[A1CV] - AMBULATORIO DO SERVICO DE CIRURGIA VASCULAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB CIRURGIA CABECA E PESCOCO",
+    "nome_original": "AMB CIRURGIA CABECA E PESCOCO",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO SERV. CIRURGIA CABECA E PESCOCO",
+    "nome_original": "[A1CA] - AMBULATORIO SERV. CIRURGIA CABECA E PESCOCO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO BREVE SERV. CIR. CABECA E PESCOCO",
+    "nome_original": "[T1CA] - AMBULATORIO BREVE SERV. CIR. CABECA E PESCOCO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB CIRURGIA GERAL",
+    "nome_original": "AMB CIRURGIA GERAL",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO DO SERVICO DE CIRURGIA ELETIVA",
+    "nome_original": "[A3CE] - AMBULATORIO DO SERVICO DE CIRURGIA ELETIVA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO BREVE DIV. CLINICA CIRURGICA III",
+    "nome_original": "[T3CC] - AMBULATORIO BREVE DIV. CLINICA CIRURGICA III",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "UNIDADE DE CIRURGIA AMBULATORIAL",
+    "nome_original": "[A3CA] - UNIDADE DE CIRURGIA AMBULATORIAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO DA DOR",
+    "nome_original": "AMBULATORIO DA DOR",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMB SV ANESTESIA AMBULATORIAL-DOR",
+    "nome_original": "[AAAB] - AMB SV ANESTESIA AMBULATORIAL-DOR",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATENCAO DOMICILIAR - NADI 04 PAMB",
+    "nome_original": "ATENCAO DOMICILIAR - NADI 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ATENCAO DOMICILIAR",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO DE CLINICA MEDICA",
+    "nome_original": "[AANEG] - AMBULATORIO DE CLINICA MEDICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ATENCAO DOMICILIAR",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENFERMARIA DE CLINICA MEDICA - NADI",
+    "nome_original": "[NADI] - ENFERMARIA DE CLINICA MEDICA - NADI",
+    "tipo": "Centro de Receita",
+    "agrupador": "ATENCAO DOMICILIAR",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "NUCLEO ASSIST. DOMICILIAR INTERDISCIPLINAR",
+    "nome_original": "[ANAD] - NUCLEO ASSIST. DOMICILIAR INTERDISCIPLINAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "ATENCAO DOMICILIAR",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SECAO DE ATENDIMENTO DOMICILIAR",
+    "nome_original": "[NAD] - SECAO DE ATENDIMENTO DOMICILIAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "ATENCAO DOMICILIAR",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "CIRURGIA AMBULATORIAL 06 PAMB",
+    "nome_original": "CIRURGIA AMBULATORIAL 06 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "CIRURGIA AMBULATORIAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "CIRURGIA AMBULATORIAL OFTALMO - OTORRINO 06",
+    "nome_original": "CIRURGIA AMBULATORIAL OFTALMO - OTORRINO 06",
+    "tipo": "Centro de Custo",
+    "agrupador": "CIRURGIA AMBULATORIAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "CIRURGIA AMBULATORIAL 10 PAMB",
+    "nome_original": "CIRURGIA AMBULATORIAL 10 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "CIRURGIA AMBULATORIAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB FONOAUDIOLOGIA 06 PAMB",
+    "nome_original": "AMB FONOAUDIOLOGIA 06 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "FONOAUDIOLOGIA",
+    "nome_original": "[FONOA] - FONOAUDIOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB NUTRICAO PAMB",
+    "nome_original": "AMB NUTRICAO PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SECAO DE ATEND. AMB - NUTRICAO E DIETETICA",
+    "nome_original": "[NAA] - SECAO DE ATEND. AMB - NUTRICAO E DIETETICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "DIVISAO DE NUTRICAO E DIETETICA",
+    "nome_original": "[NUTR] - DIVISAO DE NUTRICAO E DIETETICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB ODONTOLOGIA 06 PAMB",
+    "nome_original": "AMB ODONTOLOGIA 06 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERV CIRURGIA E TRAUMATOLOGIA BUCO MAXILO FACIAL",
+    "nome_original": "[ACMF] - SERV CIRURGIA E TRAUMATOLOGIA BUCO MAXILO FACIAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO ODONTOLOGIA",
+    "nome_original": "[AODO] - AMBULATORIO ODONTOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "EQUIPE DE ODONTOLOGIA CLINICA",
+    "nome_original": "[AODE] - EQUIPE DE ODONTOLOGIA CLINICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "EQUIPE DE ODONTOLOGIA DE DOR OROFACIAL",
+    "nome_original": "[ADOF] - EQUIPE DE ODONTOLOGIA DE DOR OROFACIAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PRONTO ATENDIMENTO ODONTOLOGIA",
+    "nome_original": "[TODO] - PRONTO ATENDIMENTO ODONTOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "CONVENIO PARTICULARES AMBULATORIO ODONTOLOGIA",
+    "nome_original": "[COPAO] - CONVENIO PARTICULARES AMBULATORIO ODONTOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB FISIOTERAPIA 02",
+    "nome_original": "AMB FISIOTERAPIA 02",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "FATURAMENTO DO SERVICO DE FISIOTERAPIA - ICHC",
+    "nome_original": "[FISIO] - FATURAMENTO DO SERVICO DE FISIOTERAPIA - ICHC",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "FATURAMENTO SERVICO FISIOTERAPIA - ICHC",
+    "nome_original": "[FISIO] - FATURAMENTO SERVICO FISIOTERAPIA - ICHC",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICO DE FISIOTERAPIA",
+    "nome_original": "[FIS] - SERVICO DE FISIOTERAPIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICO DE FISIOTERAPIA DO ICHC",
+    "nome_original": "[AFIS] - SERVICO DE FISIOTERAPIA DO ICHC",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB TERAPIA OCUPACIONAL 02",
+    "nome_original": "AMB TERAPIA OCUPACIONAL 02",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMB.DE TERAPIA OCUPACIONAL DERMATOLOGIA ESPEC",
+    "nome_original": "[TOEE] - AMB.DE TERAPIA OCUPACIONAL DERMATOLOGIA ESPEC",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIO PLASTICA/TERAPIA OCUPACIONAL",
+    "nome_original": "[APTO] - AMBULATORIO PLASTICA/TERAPIA OCUPACIONAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB FONOAUDIOLOGIA 02",
+    "nome_original": "AMB FONOAUDIOLOGIA 02",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO DE FONOAUDIOLOGIA",
+    "nome_original": "[FONO] - SERVICO DE FONOAUDIOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB PSICOLOGIA PAMB",
+    "nome_original": "AMB PSICOLOGIA PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERV DE PSICOLOGIA AMBULATORIO E ENFERMARIAS",
+    "nome_original": "[PSAE] - SERV DE PSICOLOGIA AMBULATORIO E ENFERMARIAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PSICOLOGIA",
+    "nome_original": "[PSIC] - PSICOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "CONVENIO DE ATENDIMENTO PSICOLOGICO",
+    "nome_original": "[PSICC] - CONVENIO DE ATENDIMENTO PSICOLOGICO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB SERVICO SOCIAL TERREO PAMB",
+    "nome_original": "AMB SERVICO SOCIAL TERREO PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO SOCIAL",
+    "nome_original": "[SSOC] - SERVICO SOCIAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB FARMACIA CLINICA 08 PAMB",
+    "nome_original": "AMB FARMACIA CLINICA 08 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "FARMACIA CONSULTA PACIENTE",
+    "nome_original": "[AFAR] - FARMACIA CONSULTA PACIENTE",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMBULATORIAL",
+    "nome_original": "[FAMB] - AMBULATORIAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB ENFERMAGEM PAMB",
+    "nome_original": "AMB ENFERMAGEM PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ATIVIDADES DE ENFERMAGEM",
+    "nome_original": "[ADENF] - ATIVIDADES DE ENFERMAGEM",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB ESTOMATERAPIA 06 PAMB",
+    "nome_original": "AMB ESTOMATERAPIA 06 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ATENDIMENTO ESTOMATERAPIA",
+    "nome_original": "[ADEST] - ATENDIMENTO ESTOMATERAPIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MULTIPROFISSIONAL",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ULTRASSONOGRAFIA NEUROLOGIA 05",
+    "nome_original": "ULTRASSONOGRAFIA NEUROLOGIA 05",
+    "tipo": "Centro de Custo",
+    "agrupador": "IMAGENS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATORIO - DOPPLER TRANSCRANIANO",
+    "nome_original": "[ADTC] - AMBULATORIO - DOPPLER TRANSCRANIANO",
+    "tipo": "Centro de Receita",
+    "agrupador": "IMAGENS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "INTERNADOS DOPPLER TRANSCRANIANO",
+    "nome_original": "[ADTC] - INTERNADOS DOPPLER TRANSCRANIANO",
+    "tipo": "Centro de Receita",
+    "agrupador": "IMAGENS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENDOSCOPIA GASTROINTESTINAL - CDG 02",
+    "nome_original": "ENDOSCOPIA GASTROINTESTINAL - CDG 02",
+    "tipo": "Centro de Custo",
+    "agrupador": "METODOS OPTICOS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "CENTRO DE DIAGNOSTICO EM GASTROENTEROLOGIA",
+    "nome_original": "[CDMG] - CENTRO DE DIAGNOSTICO EM GASTROENTEROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "METODOS OPTICOS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENDOSCOPIA GASTROINTESTINAL 06 PAMB",
+    "nome_original": "ENDOSCOPIA GASTROINTESTINAL 06 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "METODOS OPTICOS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO DE ENDOSCOPIA GASTROINTESTINAL",
+    "nome_original": "[EDR] - SERVICO DE ENDOSCOPIA GASTROINTESTINAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "METODOS OPTICOS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENDOSCOPIA - CONVENIO",
+    "nome_original": "[AEND] - ENDOSCOPIA - CONVENIO",
+    "tipo": "Centro de Receita",
+    "agrupador": "METODOS OPTICOS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "AMB BREVE ENDOSCOPIA",
+    "nome_original": "[TEND] - AMB BREVE ENDOSCOPIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "METODOS OPTICOS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ENDOSCOPIA",
+    "nome_original": "[AEND] - ENDOSCOPIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "METODOS OPTICOS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ATEND PS ENDOSCOPIA",
+    "nome_original": "[APSED] - ATEND PS ENDOSCOPIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "METODOS OPTICOS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ELETROCARDIOGRAFIA - ECG 04 PAMB",
+    "nome_original": "ELETROCARDIOGRAFIA - ECG 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "METODOS GRAFICOS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ELETROCARDIOGRAMA",
+    "nome_original": "[AECG] - ELETROCARDIOGRAMA",
+    "tipo": "Centro de Receita",
+    "agrupador": "METODOS GRAFICOS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SECAO DE SUPORTE DIAGNOSTICO/SVS ELETROCARDIO",
+    "nome_original": "[CMGD] - SECAO DE SUPORTE DIAGNOSTICO/SVS ELETROCARDIO",
+    "tipo": "Centro de Receita",
+    "agrupador": "AMBULATORIAL MEDICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ELETRONEUROMIOGRAFIA 05",
+    "nome_original": "ELETRONEUROMIOGRAFIA 05",
+    "tipo": "Centro de Custo",
+    "agrupador": "METODOS GRAFICOS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATÓRIO DE ELETRONEUROMIOGRAFIA",
+    "nome_original": "[AEMNG] - AMBULATÓRIO DE ELETRONEUROMIOGRAFIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "METODOS GRAFICOS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "POLISSONOGRAFIA 06",
+    "nome_original": "POLISSONOGRAFIA 06",
+    "tipo": "Centro de Custo",
+    "agrupador": "METODOS GRAFICOS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "POTENCIAL EVOCADO AUDITIVO - BERA 06",
+    "nome_original": "POTENCIAL EVOCADO AUDITIVO - BERA 06",
+    "tipo": "Centro de Custo",
+    "agrupador": "METODOS GRAFICOS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMB. POTENCIAL AUDITIVO EVOCADO DIV. OTORRINO",
+    "nome_original": "[APAEO] - AMB. POTENCIAL AUDITIVO EVOCADO DIV. OTORRINO",
+    "tipo": "Centro de Receita",
+    "agrupador": "METODOS GRAFICOS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ELETROENCEFALOGRAFIA - EEG 05 PAMB",
+    "nome_original": "ELETROENCEFALOGRAFIA - EEG 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "METODOS GRAFICOS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SVS DE ATIVIDADES ESPECIALIZADAS DIV. CLINICA",
+    "nome_original": "[NAE] - SVS DE ATIVIDADES ESPECIALIZADAS DIV. CLINICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "METODOS GRAFICOS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICOS DA GASTROCIRURGIA",
+    "nome_original": "SERVICOS DA GASTROCIRURGIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "METODOS GRAFICOS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "TESTE IMUNOLOGICO 05 PAMB",
+    "nome_original": "TESTE IMUNOLOGICO 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO DE IMUNOLOGIA",
+    "nome_original": "[1IS] - SERVICO DE IMUNOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PROVA FUNCIONAL GASTROENTEROLOGIA 05 PAMB",
+    "nome_original": "PROVA FUNCIONAL GASTROENTEROLOGIA 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO DE GASTROENTEROLOGIA",
+    "nome_original": "[2MG] - SERVICO DE GASTROENTEROLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LITOTRIPSIA 03",
+    "nome_original": "LITOTRIPSIA 03",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "MATERIAIS LITOTRIPSIA",
+    "nome_original": "[OPM] - MATERIAIS LITOTRIPSIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "PROVA FUNCAO PULMONAR 04 PAMB",
+    "nome_original": "PROVA FUNCAO PULMONAR 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "LABORATORIO DE EXPLORACAO FUNCIONAL PULMOES",
+    "nome_original": "[LFP] - LABORATORIO DE EXPLORACAO FUNCIONAL PULMOES",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "CENTRO IMUNIZACOES 04 PAMB",
+    "nome_original": "CENTRO IMUNIZACOES 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVIÇOS DA GASTROCIRURGIA",
+    "nome_original": "SERVIÇOS DA GASTROCIRURGIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERV EXAME - CIRURGIA ESÔFAGO",
+    "nome_original": "[SE2CE] - SERV EXAME - CIRURGIA ESÔFAGO",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERV EXAME - CIRURGIA COLON RETO",
+    "nome_original": "[SE2CR] - SERV EXAME - CIRURGIA COLON RETO",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVIÇOS DA OBSTETRÍCIA",
+    "nome_original": "SERVIÇOS DA OBSTETRÍCIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERV EXAMES - OBSTETRÍCIA",
+    "nome_original": "[SEOBS] - SERV EXAMES - OBSTETRÍCIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICOS DA OFTALMOLOGIA",
+    "nome_original": "SERVICOS DA OFTALMOLOGIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERV EXAMES - OFTALMOLOGIA",
+    "nome_original": "[SEOFT] - SERV EXAMES - OFTALMOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICOS DA GINECOLOGIA",
+    "nome_original": "SERVICOS DA GINECOLOGIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERV EXAMES - GINECOLOGIA",
+    "nome_original": "[SEGIN] - SERV EXAMES - GINECOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICO DA CLINICA MEDICA AGD",
+    "nome_original": "SERVICO DA CLINICA MEDICA AGD",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERV EXAMES - AGD",
+    "nome_original": "[SEAGD] - SERV EXAMES - AGD",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICOS DA REPRODUCAO HUMANA",
+    "nome_original": "SERVICOS DA REPRODUCAO HUMANA",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERV EXAMES - REPRODUCAO HUMANA",
+    "nome_original": "[SECRH] - SERV EXAMES - REPRODUCAO HUMANA",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICO UNIDADE EMERG REFERENCIADA",
+    "nome_original": "SERVICO UNIDADE EMERG REFERENCIADA",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERV EXAMES UER",
+    "nome_original": "[SEUER] - SERV EXAMES UER",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICO DA PNEUMOLOGIA",
+    "nome_original": "SERVICO DA PNEUMOLOGIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERV EXAMES PNEUMOLOGIA",
+    "nome_original": "[SE2MP] - SERV EXAMES PNEUMOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICOS DA NEUROLOGIA CLINICA",
+    "nome_original": "SERVICOS DA NEUROLOGIA CLINICA",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO DE EXAMES DE POLISSONOGRAFIA - NCL - CAM",
+    "nome_original": "[SEPNC] - SERVICO DE EXAMES DE POLISSONOGRAFIA - NCL - CAM",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICOS DA FONOAUDIOLOGIA",
+    "nome_original": "SERVICOS DA FONOAUDIOLOGIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERV EXAMES FONOAUDIOLOGIA",
+    "nome_original": "[SEFON] - SERV EXAMES FONOAUDIOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICOS DA OTORRINOLARINGOLOGIA",
+    "nome_original": "SERVICOS DA OTORRINOLARINGOLOGIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERV EXAMES OTORRINOLARINGOLOGIA",
+    "nome_original": "[SEORL] - SERV EXAMES OTORRINOLARINGOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTROS EXAMES E TERAPIAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB ANALISES CLINICAS DLC 02 PAMB",
+    "nome_original": "LAB ANALISES CLINICAS DLC 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO DE ANALISES ESPECIAIS DO LAB. CENTRAL",
+    "nome_original": "[LAE] - SERVICO DE ANALISES ESPECIAIS DO LAB. CENTRAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "COLETA DO LABORATORIO CENTRAL",
+    "nome_original": "[CLAB] - COLETA DO LABORATORIO CENTRAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB BIOQUIMICA CLINICA DLC 02 PAMB",
+    "nome_original": "LAB BIOQUIMICA CLINICA DLC 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO DE BIOQUIMICA CLINICA",
+    "nome_original": "[LBC] - SERVICO DE BIOQUIMICA CLINICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SERVICO DE BIOQUIMICA CLINICA - ICSP",
+    "nome_original": "[ICLBC] - SERVICO DE BIOQUIMICA CLINICA - ICSP",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB HEMATOLOGIA DLC 02 PAMB",
+    "nome_original": "LAB HEMATOLOGIA DLC 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO DE HEMATOLOGIA CITOLOGICA GENETICA",
+    "nome_original": "[LHC] - SERVICO DE HEMATOLOGIA CITOLOGICA GENETICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "[NRL] SERVICO NEUROLOGIA LAB HEMATOLOGIA",
+    "nome_original": "[NRL] SERVICO NEUROLOGIA LAB HEMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB IMUNOLOGIA DLC 02 PAMB",
+    "nome_original": "LAB IMUNOLOGIA DLC 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO DE IMUNOLOGIA DIVISAO DO LAB. CENTRAL",
+    "nome_original": "[LIU] - SERVICO DE IMUNOLOGIA DIVISAO DO LAB. CENTRAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB MICROBIOLOGIA DLC 02 PAMB",
+    "nome_original": "LAB MICROBIOLOGIA DLC 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO DE MICROBIOLOGIA",
+    "nome_original": "[LMB] - SERVICO DE MICROBIOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB PARASITOLOGIA DLC 02 PAMB",
+    "nome_original": "LAB PARASITOLOGIA DLC 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO DE PARASITOLOGIA",
+    "nome_original": "[LPA] - SERVICO DE PARASITOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB EMERG DLC 02 PAMB",
+    "nome_original": "LAB EMERG DLC 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "LABORATORIO DE URGENCIAS LABORATORIAIS PS",
+    "nome_original": "[LPS] - LABORATORIO DE URGENCIAS LABORATORIAIS PS",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB BIOLOGIA MOLECULAR DLC 02 PAMB",
+    "nome_original": "LAB BIOLOGIA MOLECULAR DLC 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "LABORATORIO DE BIOLOGIA MOLECULAR",
+    "nome_original": "[ALBM] - LABORATORIO DE BIOLOGIA MOLECULAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB LIQUOR DLC 02 PAMB",
+    "nome_original": "LAB LIQUOR DLC 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "LABORATORIO DE LIQUOR",
+    "nome_original": "[ALAL] - LABORATORIO DE LIQUOR",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB BIOLOGIA TUMORAL TMO 01 PAMB",
+    "nome_original": "LAB BIOLOGIA TUMORAL TMO 01 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "1MH LABORATORIO DE BIOLOGIA TUMORAL",
+    "nome_original": "[LHBT] - 1MH LABORATORIO DE BIOLOGIA TUMORAL",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB CITOGENETICA TMO 01 PAMB",
+    "nome_original": "LAB CITOGENETICA TMO 01 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "1MH LABORATORIO DE CITOGENETICA",
+    "nome_original": "[LHCI] - 1MH LABORATORIO DE CITOGENETICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB IMUNOHEMATOLOGIA TMO 01 PAMB",
+    "nome_original": "LAB IMUNOHEMATOLOGIA TMO 01 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "LABORATORIO DE IMUNOHEMATOLOGIA CLINICA",
+    "nome_original": "[LHIC] - LABORATORIO DE IMUNOHEMATOLOGIA CLINICA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB HEMOSTASIA TMO 01 PAMB",
+    "nome_original": "LAB HEMOSTASIA TMO 01 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "1MH AMBULATORIO DE HEMOSTASIA",
+    "nome_original": "[LHHT] - 1MH AMBULATORIO DE HEMOSTASIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB IMUNOPATOLOGIA TMO 01 PAMB",
+    "nome_original": "LAB IMUNOPATOLOGIA TMO 01 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "1MH AMBULATORIO DE IMUNOPATOLOGIA",
+    "nome_original": "[LHIM] - 1MH AMBULATORIO DE IMUNOPATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB HEMATOLOGIA TMO 01 PAMB",
+    "nome_original": "LAB HEMATOLOGIA TMO 01 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "1MH LABORATORIO DE HEMATOLOGIA",
+    "nome_original": "[LHHM] - 1MH LABORATORIO DE HEMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LABORATORIO DE HEMATOLOGIA",
+    "nome_original": "[ALAH] - LABORATORIO DE HEMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB DERMATOLOGIA 03",
+    "nome_original": "LAB DERMATOLOGIA 03",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SECAO DE LABORATORIO DE DERMATOIMUNOLOGIA",
+    "nome_original": "[DEXD] - SECAO DE LABORATORIO DE DERMATOIMUNOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "SECAO DO LABORATORIO DE HISTOPATOLOGIA",
+    "nome_original": "[DEXH] - SECAO DO LABORATORIO DE HISTOPATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB.HISTOPATOLOGIA CUTANEA DA DIV. DE DERMAT.",
+    "nome_original": "[ALDE] - LAB.HISTOPATOLOGIA CUTANEA DA DIV. DE DERMAT.",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB ENDOCRINOLOGIA 02 PAMB",
+    "nome_original": "LAB ENDOCRINOLOGIA 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO HORMONIOS E GENETICA MOLECULAR",
+    "nome_original": "[LHG] - SERVICO HORMONIOS E GENETICA MOLECULAR",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "DOSAGENS HORMONAIS",
+    "nome_original": "[CORHO] - DOSAGENS HORMONAIS",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB CRIOPRESERVACAO 01 PAMB",
+    "nome_original": "LAB CRIOPRESERVACAO 01 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "LAB CRIOPRESERVACAO EXAMES",
+    "nome_original": "[LHCR] - LAB CRIOPRESERVACAO EXAMES",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB CRIOPRESERVACAO PROCEDIMENTOS",
+    "nome_original": "[ALHCR] - LAB CRIOPRESERVACAO PROCEDIMENTOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB CORELAB DLC 02 PAMB",
+    "nome_original": "LAB CORELAB DLC 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "LAB CORELAB",
+    "nome_original": "[CORLB] - LAB CORELAB",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB URG CENTRO CIRURGICO DLC 09 PAMB",
+    "nome_original": "LAB URG CENTRO CIRURGICO DLC 09 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "LAB URG C CIRURG DLC",
+    "nome_original": "[LBUCG] - LAB URG C CIRURG DLC",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES CLINICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "LAB ANATOMIA PATOLOGICA 09 E 10 PAMB",
+    "nome_original": "LAB ANATOMIA PATOLOGICA 09 E 10 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ANALISES PATOLOGICAS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "SERVICO DE CENTRO CIRURGICO",
+    "nome_original": "[SCC] - SERVICO DE CENTRO CIRURGICO",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES PATOLOGICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ANATOMIA PATOLOGIA",
+    "nome_original": "[SAN] - ANATOMIA PATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "ANALISES PATOLOGICAS",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "DIALISE AGUDO 07",
+    "nome_original": "DIALISE AGUDO 07",
+    "tipo": "Centro de Custo",
+    "agrupador": "DIALISE",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UNIDADE DE DIALISE",
+    "nome_original": "[DPI] - UNIDADE DE DIALISE",
+    "tipo": "Centro de Receita",
+    "agrupador": "DIALISE",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "DIALISE CRONICO 05 PAMB",
+    "nome_original": "DIALISE CRONICO 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "DIALISE",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "DIAIISE E HEMODIALISE",
+    "nome_original": "[A1MY] - DIAIISE E HEMODIALISE",
+    "tipo": "Centro de Receita",
+    "agrupador": "DIALISE",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "BANCO TECIDOS 08",
+    "nome_original": "BANCO TECIDOS 08",
+    "tipo": "Centro de Custo",
+    "agrupador": "BANCOS ORGAOS / TECIDOS / LEITE",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMBULATÓRIO DE BANCO DE TECIDOS",
+    "nome_original": "[BTECP] - AMBULATÓRIO DE BANCO DE TECIDOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "BANCOS ORGAOS / TECIDOS / LEITE",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "BANCO TECIDOS OCULARES HUMANOS",
+    "nome_original": "BANCO TECIDOS OCULARES HUMANOS",
+    "tipo": "Centro de Custo",
+    "agrupador": "BANCOS ORGAOS / TECIDOS / LEITE",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "BANCO TECIDOS OCULARES HUMANOS",
+    "nome_original": "[BTOH] - BANCO TECIDOS OCULARES HUMANOS",
+    "tipo": "Centro de Receita",
+    "agrupador": "BANCOS ORGAOS / TECIDOS / LEITE",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "CENTRO CIRURGICO GERAL 09 PAMB",
+    "nome_original": "CENTRO CIRURGICO GERAL 09 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "CENTRO CIRURGICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "[ICSCC] SEV CENTRO CIRURGICO",
+    "nome_original": "[ICSCC] SEV CENTRO CIRURGICO",
+    "tipo": "Centro de Receita",
+    "agrupador": "CENTRO CIRURGICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "CENTRO CIRURGICO UROLOGIA 07 PAMB",
+    "nome_original": "CENTRO CIRURGICO UROLOGIA 07 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "CENTRO CIRURGICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "ANESTESIOLOGIA UATA 09 PAMB",
+    "nome_original": "ANESTESIOLOGIA UATA 09 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "CENTRO CIRURGICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "CENTRO CIRURGICO QUEIMADOS 08 PAMB",
+    "nome_original": "CENTRO CIRURGICO QUEIMADOS 08 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "CENTRO CIRURGICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "CENTRO OBSTETRICO 10 PAMB",
+    "nome_original": "CENTRO OBSTETRICO 10 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "CENTRO OBSTETRICO",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "UNIDADE DE CENTRO OBSTETRICO",
+    "nome_original": "[OBCO] - UNIDADE DE CENTRO OBSTETRICO",
+    "tipo": "Centro de Receita",
+    "agrupador": "CENTRO OBSTETRICO",
+    "grupo_operacional": "2 - PRODUTIVOS"
+  },
+  {
+    "nome": "NUTRICAO E DIETETICA",
+    "nome_original": "NUTRICAO E DIETETICA",
+    "tipo": "Centro de Custo",
+    "agrupador": "NUTRICAO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "NUTRICAO ENTERAL",
+    "nome_original": "NUTRICAO ENTERAL",
+    "tipo": "Centro de Custo",
+    "agrupador": "NUTRICAO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "LACTARIO",
+    "nome_original": "LACTARIO",
+    "tipo": "Centro de Custo",
+    "agrupador": "NUTRICAO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "HOTELARIA - ICHC",
+    "nome_original": "HOTELARIA - ICHC",
+    "tipo": "Centro de Custo",
+    "agrupador": "HOTELARIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "GESTAO LEITOS",
+    "nome_original": "GESTAO LEITOS",
+    "tipo": "Centro de Custo",
+    "agrupador": "HOTELARIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ROUPARIA / LAVANDERIA - ICHC",
+    "nome_original": "ROUPARIA / LAVANDERIA - ICHC",
+    "tipo": "Centro de Custo",
+    "agrupador": "ROUPARIA / LAVANDERIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "HIGIENIZACAO / LIMPEZA - ICHC",
+    "nome_original": "HIGIENIZACAO / LIMPEZA - ICHC",
+    "tipo": "Centro de Custo",
+    "agrupador": "HIGIENIZACAO / LIMPEZA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "RESIDUOS HOSPITALARES",
+    "nome_original": "RESIDUOS HOSPITALARES",
+    "tipo": "Centro de Custo",
+    "agrupador": "HIGIENIZACAO / LIMPEZA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "SEGURANCA PATRIMONIAL / PORTARIA - ICHC",
+    "nome_original": "SEGURANCA PATRIMONIAL / PORTARIA - ICHC",
+    "tipo": "Centro de Custo",
+    "agrupador": "SEGURANCA PATRIMONIAL / PORTARIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX SUPRIMENTOS - CILO",
+    "nome_original": "ALMOX SUPRIMENTOS - CILO",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX CENTRO CIRURGICO",
+    "nome_original": "ALMOX CENTRO CIRURGICO",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX MANUTENCAO",
+    "nome_original": "ALMOX MANUTENCAO",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX NUTRICAO",
+    "nome_original": "ALMOX NUTRICAO",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "CENTRO DISTRIBUICAO - CD",
+    "nome_original": "CENTRO DISTRIBUICAO - CD",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX DLC",
+    "nome_original": "ALMOX DLC",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX PRONTO SOCORRO",
+    "nome_original": "ALMOX PRONTO SOCORRO",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX ROUPARIA",
+    "nome_original": "ALMOX ROUPARIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX SAUDE SUPLEMENTAR",
+    "nome_original": "ALMOX SAUDE SUPLEMENTAR",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX DEMANDAS JUDICIAIS",
+    "nome_original": "ALMOX DEMANDAS JUDICIAIS",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX CASA AIDS",
+    "nome_original": "ALMOX CASA AIDS",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX HOTELARIA",
+    "nome_original": "ALMOX HOTELARIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX GASES MEDICINAIS - CEIC",
+    "nome_original": "ALMOX GASES MEDICINAIS - CEIC",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX ENGENHARIA CLINICA",
+    "nome_original": "ALMOX ENGENHARIA CLINICA",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX MATERIAIS ESPECIAIS - OPME",
+    "nome_original": "ALMOX MATERIAIS ESPECIAIS - OPME",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX DISP 11GS",
+    "nome_original": "ALMOX DISP 11GS",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX DISP 11GN",
+    "nome_original": "ALMOX DISP 11GN",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX DISP 11FF",
+    "nome_original": "ALMOX DISP 11FF",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX INTERNAÇÃO 11",
+    "nome_original": "ALMOX INTERNAÇÃO 11",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX CETI - ICHC",
+    "nome_original": "ALMOX CETI - ICHC",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ALMOX ENFERMAGEM",
+    "nome_original": "ALMOX ENFERMAGEM",
+    "tipo": "Centro de Custo",
+    "agrupador": "ALMOXARIFADO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM CENTRAL",
+    "nome_original": "FARM CENTRAL",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM CAF SAUDE SUPLEMENTAR",
+    "nome_original": "FARM CAF SAUDE SUPLEMENTAR",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM CEAF",
+    "nome_original": "FARM CEAF",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM DEMANDAS JUDICIAIS",
+    "nome_original": "FARM DEMANDAS JUDICIAIS",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM DOSE INDIVIDUALIZADA/UNITARIZADA",
+    "nome_original": "FARM DOSE INDIVIDUALIZADA/UNITARIZADA",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM INTERNACAO 06",
+    "nome_original": "FARM INTERNACAO 06",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM INTERNACAO 07",
+    "nome_original": "FARM INTERNACAO 07",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM INTERNACAO 09",
+    "nome_original": "FARM INTERNACAO 09",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM CENTRO CIRURGICO",
+    "nome_original": "FARM CENTRO CIRURGICO",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM INTERNACAO 04",
+    "nome_original": "FARM INTERNACAO 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM CEAC",
+    "nome_original": "FARM CEAC",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM AMBULATORIAL",
+    "nome_original": "FARM AMBULATORIAL",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM ETIQUETADOS/UNITARIZADOS",
+    "nome_original": "FARM ETIQUETADOS/UNITARIZADOS",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM HEMATOLOGIA 01 PAMB",
+    "nome_original": "FARM HEMATOLOGIA 01 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM PESQ CLIN HEMATOLOGIA",
+    "nome_original": "FARM PESQ CLIN HEMATOLOGIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM SES UNITARIZACAO",
+    "nome_original": "FARM SES UNITARIZACAO",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "FARM HEMATOLOGIA CEAF",
+    "nome_original": "FARM HEMATOLOGIA CEAF",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACIA",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "CENTRAL DE COMPRAS - SOC",
+    "nome_original": "CENTRAL DE COMPRAS - SOC",
+    "tipo": "Centro de Custo",
+    "agrupador": "SUPRIMENTOS / COMPRAS",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "UFAR CENTRAL",
+    "nome_original": "UFAR CENTRAL",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACOTECNICA HOSPITALAR",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "UFAR UNITARIZACAO",
+    "nome_original": "UFAR UNITARIZACAO",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACOTECNICA HOSPITALAR",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "UFAR PRODUCAO",
+    "nome_original": "UFAR PRODUCAO",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACOTECNICA HOSPITALAR",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "UFAR ACABAMENTO",
+    "nome_original": "UFAR ACABAMENTO",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACOTECNICA HOSPITALAR",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "UFAR PREPARO MATERIAIS",
+    "nome_original": "UFAR PREPARO MATERIAIS",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACOTECNICA HOSPITALAR",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "UFAR PRODUCAO ESTEREIS",
+    "nome_original": "UFAR PRODUCAO ESTEREIS",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACOTECNICA HOSPITALAR",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "UFAR PRODUCAO NAO ESTEREIS",
+    "nome_original": "UFAR PRODUCAO NAO ESTEREIS",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACOTECNICA HOSPITALAR",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "UFAR LAB CONTROLE QUALIDADE",
+    "nome_original": "UFAR LAB CONTROLE QUALIDADE",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACOTECNICA HOSPITALAR",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "UFAR MANIPULACAO",
+    "nome_original": "UFAR MANIPULACAO",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACOTECNICA HOSPITALAR",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "GARANTIA DA QUALIDADE UFAR",
+    "nome_original": "GARANTIA DA QUALIDADE UFAR",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACOTECNICA HOSPITALAR",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "UFAR SETOR VENDA MEDICAMENTOS",
+    "nome_original": "UFAR SETOR VENDA MEDICAMENTOS",
+    "tipo": "Centro de Custo",
+    "agrupador": "FARMACOTECNICA HOSPITALAR",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "ENGENHARIA CLINICA",
+    "nome_original": "ENGENHARIA CLINICA",
+    "tipo": "Centro de Custo",
+    "agrupador": "ENGENHARIA E PROJETOS/OBRAS",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "ENGENHARIA PREDIAL",
+    "nome_original": "ENGENHARIA PREDIAL",
+    "tipo": "Centro de Custo",
+    "agrupador": "ENGENHARIA E PROJETOS/OBRAS",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "PROJETOS E OBRAS",
+    "nome_original": "PROJETOS E OBRAS",
+    "tipo": "Centro de Custo",
+    "agrupador": "ENGENHARIA E PROJETOS/OBRAS",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "CENTRAL GASES MEDICINAIS",
+    "nome_original": "CENTRAL GASES MEDICINAIS",
+    "tipo": "Centro de Custo",
+    "agrupador": "ENGENHARIA E PROJETOS/OBRAS",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "GERADORES",
+    "nome_original": "GERADORES",
+    "tipo": "Centro de Custo",
+    "agrupador": "ENGENHARIA E PROJETOS/OBRAS",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "CENTRAL AR CONDICIONADO",
+    "nome_original": "CENTRAL AR CONDICIONADO",
+    "tipo": "Centro de Custo",
+    "agrupador": "ENGENHARIA E PROJETOS/OBRAS",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "CALDEIRA",
+    "nome_original": "CALDEIRA",
+    "tipo": "Centro de Custo",
+    "agrupador": "ENGENHARIA E PROJETOS/OBRAS",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "CENTRO ESPECIALIZADO TECNOLOGIA INFORMACAO - CETI",
+    "nome_original": "CENTRO ESPECIALIZADO TECNOLOGIA INFORMACAO - CETI",
+    "tipo": "Centro de Custo",
+    "agrupador": "TECNOLOGIA INFORMACAO",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "CME 09 PAMB",
+    "nome_original": "CME 09 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "CENTRAL MATERIAL ESTERILIZADO - CME",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "SAME",
+    "nome_original": "SAME",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "RECEPCAO AMBULATORIO SAUDE SUPLEMENTAR",
+    "nome_original": "RECEPCAO AMBULATORIO SAUDE SUPLEMENTAR",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "RECEPCAO INTERNACAO SAUDE SUPLEMENTAR",
+    "nome_original": "RECEPCAO INTERNACAO SAUDE SUPLEMENTAR",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "RECEPCAO PRONTO SOCORRO 04",
+    "nome_original": "RECEPCAO PRONTO SOCORRO 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "RECEPCAO AMOSTRAS PDA 02 PAMB",
+    "nome_original": "RECEPCAO AMOSTRAS PDA 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "POSTO COLETA SUS 02 PAMB",
+    "nome_original": "POSTO COLETA SUS 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "POSTO COLETA SAUDE SUPLEMENTAR",
+    "nome_original": "POSTO COLETA SAUDE SUPLEMENTAR",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "CEIC - CENTRAL EQUIPAMENTO INSTITUTO CENTRAL",
+    "nome_original": "CEIC - CENTRAL EQUIPAMENTO INSTITUTO CENTRAL",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "SALA HIGIENIZACAO ACESSORIOS MED HOSP 01",
+    "nome_original": "SALA HIGIENIZACAO ACESSORIOS MED HOSP 01",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "SALA DE PROCEDIMENTOS - NEFRO",
+    "nome_original": "SALA DE PROCEDIMENTOS - NEFRO",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "CADASTRO E CONTROLE DE ACESSO 04 PAMB",
+    "nome_original": "CADASTRO E CONTROLE DE ACESSO 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "RECEPÇÃO DAM 04 PAMB",
+    "nome_original": "RECEPÇÃO DAM 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "SALA DISCUSSAO INTERCONSULTA HEMATO 08C",
+    "nome_original": "SALA DISCUSSAO INTERCONSULTA HEMATO 08C",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "CENTRAL TRANSP INTERNO PACIENTES - CETIP",
+    "nome_original": "CENTRAL TRANSP INTERNO PACIENTES - CETIP",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTROS AUXILIARES",
+    "grupo_operacional": "3 - APOIO / AUXILIARES"
+  },
+  {
+    "nome": "CONSELHO DIRETOR",
+    "nome_original": "CONSELHO DIRETOR",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP GINECOLOGIA 10",
+    "nome_original": "DEP GINECOLOGIA 10",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP OBSTETRICIA 10",
+    "nome_original": "DEP OBSTETRICIA 10",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP CIRURGIA APARELHO DIGESTIVO 09",
+    "nome_original": "DEP CIRURGIA APARELHO DIGESTIVO 09",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP GASTROENTEROLOGIA 09",
+    "nome_original": "DEP GASTROENTEROLOGIA 09",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP ANESTESIOLOGIA 08 PAMB",
+    "nome_original": "DEP ANESTESIOLOGIA 08 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP CIRURGIA CABECA E PESCOCO 08",
+    "nome_original": "DEP CIRURGIA CABECA E PESCOCO 08",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP CIRURGIA GERAL 08",
+    "nome_original": "DEP CIRURGIA GERAL 08",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP CIRURGIA PLASTICA - QUEIMADOS 08",
+    "nome_original": "DEP CIRURGIA PLASTICA - QUEIMADOS 08",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP GERIATRIA 08 PAMB",
+    "nome_original": "DEP GERIATRIA 08 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP IMUNOLOGIA 08 PAMB",
+    "nome_original": "DEP IMUNOLOGIA 08 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP PRIMEIRA CLINICA CIRURGICA 08",
+    "nome_original": "DEP PRIMEIRA CLINICA CIRURGICA 08",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP PRIMEIRA CLINICA MEDICA 08",
+    "nome_original": "DEP PRIMEIRA CLINICA MEDICA 08",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP ENDOCRINOLOGIA 07",
+    "nome_original": "DEP ENDOCRINOLOGIA 07",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP NEFROLOGIA 07",
+    "nome_original": "DEP NEFROLOGIA 07",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP TRANSPLANTE RENAL 07",
+    "nome_original": "DEP TRANSPLANTE RENAL 07",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP UROLOGIA 07",
+    "nome_original": "DEP UROLOGIA 07",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP CIRURGIA VASCULAR 06 PAMB",
+    "nome_original": "DEP CIRURGIA VASCULAR 06 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP OFTALMOLOGIA 06",
+    "nome_original": "DEP OFTALMOLOGIA 06",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP OTORRINOLARINGOLOGIA 06",
+    "nome_original": "DEP OTORRINOLARINGOLOGIA 06",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP EMERG CLINICA MEDICA 05",
+    "nome_original": "DEP EMERG CLINICA MEDICA 05",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP NEUROCIRUGIA 05",
+    "nome_original": "DEP NEUROCIRUGIA 05",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP NEUROLOGIA 05",
+    "nome_original": "DEP NEUROLOGIA 05",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP PNEUMOLOGIA 05 PAMB",
+    "nome_original": "DEP PNEUMOLOGIA 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP REUMATOLOGIA 05 PAMB",
+    "nome_original": "DEP REUMATOLOGIA 05 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP CLINICA MEDICA 04 PAMB",
+    "nome_original": "DEP CLINICA MEDICA 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP MOLESTIAS INFECCIOSAS 04",
+    "nome_original": "DEP MOLESTIAS INFECCIOSAS 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP TRANPLANTE E CIRURGIA FIGADO 04 PAMB",
+    "nome_original": "DEP TRANPLANTE E CIRURGIA FIGADO 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP DERMATOLOGIA 03",
+    "nome_original": "DEP DERMATOLOGIA 03",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP LABORATORIO CENTRAL 02 PAMB",
+    "nome_original": "DEP LABORATORIO CENTRAL 02 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP HEMATOLOGIA 01 PAMB",
+    "nome_original": "DEP HEMATOLOGIA 01 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DIR EXECUTIVA",
+    "nome_original": "DIR EXECUTIVA",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "ASSESSORIA DIR EXECUTIVA",
+    "nome_original": "ASSESSORIA DIR EXECUTIVA",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DIR CORPO CLINICO",
+    "nome_original": "DIR CORPO CLINICO",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DIR ENFERMAGEM",
+    "nome_original": "DIR ENFERMAGEM",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "SUB COMISSAO CONTROLE INF HOSPITALAR - SCCIH",
+    "nome_original": "SUB COMISSAO CONTROLE INF HOSPITALAR - SCCIH",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DIR FARMACIA",
+    "nome_original": "DIR FARMACIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DIR SERVICO SOCIAL TERREO PAMB",
+    "nome_original": "DIR SERVICO SOCIAL TERREO PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DIR PSICOLOGIA TERREO PAMB",
+    "nome_original": "DIR PSICOLOGIA TERREO PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DIR FISIOTERAPIA 04 PAMB",
+    "nome_original": "DIR FISIOTERAPIA 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "CENTRO PLANEJAMENTO GESTAO - CPG",
+    "nome_original": "CENTRO PLANEJAMENTO GESTAO - CPG",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "CENTRO COMUNICACAO INSTITUCIONAL - CCI",
+    "nome_original": "CENTRO COMUNICACAO INSTITUCIONAL - CCI",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "CENTRO GESTAO PESSOAS - CGP",
+    "nome_original": "CENTRO GESTAO PESSOAS - CGP",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "CENTRO EDUCACAO PERMANENTE - CEP",
+    "nome_original": "CENTRO EDUCACAO PERMANENTE - CEP",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "CENTRO EDUCACAO PERMANENTE - FARMACIA",
+    "nome_original": "CENTRO EDUCACAO PERMANENTE - FARMACIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "CENTRO ECONOMICO FINANCEIRO - CEF",
+    "nome_original": "CENTRO ECONOMICO FINANCEIRO - CEF",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "CENTRO ESPECIALIZADO EM DIREITO - CEDI",
+    "nome_original": "CENTRO ESPECIALIZADO EM DIREITO - CEDI",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "FATURAMENTO SAUDE SUPLEMENTAR",
+    "nome_original": "FATURAMENTO SAUDE SUPLEMENTAR",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "FATURAMENTO SUS 04 PAMB",
+    "nome_original": "FATURAMENTO SUS 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "REPROGRAFIA",
+    "nome_original": "REPROGRAFIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "OUVIDORIA",
+    "nome_original": "OUVIDORIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "AREAS COMUNS",
+    "nome_original": "AREAS COMUNS",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "AUDITORIOS/SALA AULA - BERILO 05",
+    "nome_original": "AUDITORIOS/SALA AULA - BERILO 05",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "ZELADORIA",
+    "nome_original": "ZELADORIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "VESTIARIO TERREO PAMB",
+    "nome_original": "VESTIARIO TERREO PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEMANDA JUDICIAL",
+    "nome_original": "DEMANDA JUDICIAL",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "CENTRO INOVAÇÃO TECNOLÓGICA - CITIC",
+    "nome_original": "CENTRO INOVAÇÃO TECNOLÓGICA - CITIC",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "DEP ADM 11 ANDAR",
+    "nome_original": "DEP ADM 11 ANDAR",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "GRUPO DE GESTÃO",
+    "nome_original": "GRUPO DE GESTÃO",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "AUTORIZAÇÃO - CAM",
+    "nome_original": "AUTORIZAÇÃO - CAM",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "AUDITORIA - CAM",
+    "nome_original": "AUDITORIA - CAM",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "SS -  FATURAMENTO FFM",
+    "nome_original": "SS -  FATURAMENTO FFM",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "SS- GLOSAS FFM",
+    "nome_original": "SS- GLOSAS FFM",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "ICHC - SS - FATURAMENTO AMB",
+    "nome_original": "ICHC - SS - FATURAMENTO AMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "ICHC - SS -  FATURAMENTO INT",
+    "nome_original": "ICHC - SS -  FATURAMENTO INT",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "ICHC - NRM - FFM",
+    "nome_original": "ICHC - NRM - FFM",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "SUS -  FATURAMENTO AIH FFM",
+    "nome_original": "SUS -  FATURAMENTO AIH FFM",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "SUS - FATURAMENTO AMB FFM",
+    "nome_original": "SUS - FATURAMENTO AMB FFM",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "ICHC - SUS FATURAMENTO AIH",
+    "nome_original": "ICHC - SUS FATURAMENTO AIH",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "ICHC - SUS - FATURAMENTO AMB",
+    "nome_original": "ICHC - SUS - FATURAMENTO AMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "APAC -DAM",
+    "nome_original": "APAC -DAM",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "AIH - OPME / SUS",
+    "nome_original": "AIH - OPME / SUS",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "AUDITORIA EXTERNA - CAM",
+    "nome_original": "AUDITORIA EXTERNA - CAM",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "FINANCEIRO - CAM",
+    "nome_original": "FINANCEIRO - CAM",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "SESMT - SERV ESPEC ENGENHARIA SEGUR MEDIC TRABALHO",
+    "nome_original": "SESMT - SERV ESPEC ENGENHARIA SEGUR MEDIC TRABALHO",
+    "tipo": "Centro de Custo",
+    "agrupador": "ADMINISTRATIVO",
+    "grupo_operacional": "1 - ADMINISTRATIVOS"
+  },
+  {
+    "nome": "PESQUISA CLINICA 04 PAMB",
+    "nome_original": "PESQUISA CLINICA 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "PESQUISA",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "PESQUISA HEMATOLOGIA 01 PAMB",
+    "nome_original": "PESQUISA HEMATOLOGIA 01 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "PESQUISA",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "PESQUISA CLINICA HEMATOLOGIA",
+    "nome_original": "[PCH] - PESQUISA CLINICA HEMATOLOGIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "PESQUISA",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "PESQUISA LIGA HIPERTENSAO 07",
+    "nome_original": "PESQUISA LIGA HIPERTENSAO 07",
+    "tipo": "Centro de Custo",
+    "agrupador": "PESQUISA",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "PESQUISA FARMACEUTICA 08 PAMB",
+    "nome_original": "PESQUISA FARMACEUTICA 08 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "PESQUISA",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "PESQUISA DE TERAPIA CELULAR",
+    "nome_original": "PESQUISA DE TERAPIA CELULAR",
+    "tipo": "Centro de Custo",
+    "agrupador": "PESQUISA",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "CENTRO DE PESQUISA CLINICA - CEAC",
+    "nome_original": "CENTRO DE PESQUISA CLINICA - CEAC",
+    "tipo": "Centro de Custo",
+    "agrupador": "PESQUISA",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "PESQUISA DA REUMATOLOGIA 04 PAMB",
+    "nome_original": "PESQUISA DA REUMATOLOGIA 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "PESQUISA",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "INSTITUTO CRIANCA - ICR",
+    "nome_original": "INSTITUTO CRIANCA - ICR",
+    "tipo": "Centro de Custo",
+    "agrupador": "INSTITUTOS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "INSTITUTO ORTOPEDIA - IOT",
+    "nome_original": "INSTITUTO ORTOPEDIA - IOT",
+    "tipo": "Centro de Custo",
+    "agrupador": "INSTITUTOS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "INSTITUTO PSIQUIATRIA - IPQ",
+    "nome_original": "INSTITUTO PSIQUIATRIA - IPQ",
+    "tipo": "Centro de Custo",
+    "agrupador": "INSTITUTOS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "INSTITUTO RADIOLOGIA - INRAD",
+    "nome_original": "INSTITUTO RADIOLOGIA - INRAD",
+    "tipo": "Centro de Custo",
+    "agrupador": "INSTITUTOS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "INSTITUTO CANCER - ICESP",
+    "nome_original": "INSTITUTO CANCER - ICESP",
+    "tipo": "Centro de Custo",
+    "agrupador": "INSTITUTOS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "INSTITUTO CORACAO - INCOR",
+    "nome_original": "INSTITUTO CORACAO - INCOR",
+    "tipo": "Centro de Custo",
+    "agrupador": "INSTITUTOS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "HOSPITAL AUXILIAR SUZANO - HAS",
+    "nome_original": "HOSPITAL AUXILIAR SUZANO - HAS",
+    "tipo": "Centro de Custo",
+    "agrupador": "INSTITUTOS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "PREDIO ADMINISTRACAO - PA",
+    "nome_original": "PREDIO ADMINISTRACAO - PA",
+    "tipo": "Centro de Custo",
+    "agrupador": "INSTITUTOS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "HOSPITAL AUXILIAR COTOXO - HAC",
+    "nome_original": "HOSPITAL AUXILIAR COTOXO - HAC",
+    "tipo": "Centro de Custo",
+    "agrupador": "INSTITUTOS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "INSTITUTO MEDICINA FISICA E REABILITACAO - IMREA",
+    "nome_original": "INSTITUTO MEDICINA FISICA E REABILITACAO - IMREA",
+    "tipo": "Centro de Custo",
+    "agrupador": "INSTITUTOS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "CENTRO DE ATENCAO AO COLABORADOR - CEAC",
+    "nome_original": "CENTRO DE ATENCAO AO COLABORADOR - CEAC",
+    "tipo": "Centro de Custo",
+    "agrupador": "INSTITUTOS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "FATURAMENTO FFM 10 PAMB",
+    "nome_original": "FATURAMENTO FFM 10 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "ICR - UTI NEONATAL 10",
+    "nome_original": "ICR - UTI NEONATAL 10",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "CAPTACAO ORGAOS SPOT 05 DIR CLIN",
+    "nome_original": "CAPTACAO ORGAOS SPOT 05 DIR CLIN",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ORGANIZACAO DE PROCURA DE ORGAOS DO HC",
+    "nome_original": "[OPO] - ORGANIZACAO DE PROCURA DE ORGAOS DO HC",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "LANCHONETE 05",
+    "nome_original": "LANCHONETE 05",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "INRAD - SADT - PS 04",
+    "nome_original": "INRAD - SADT - PS 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "LAB SUCEN 04 PAMB",
+    "nome_original": "LAB SUCEN 04 PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "FUNDACAO PRO SANGUE 01",
+    "nome_original": "FUNDACAO PRO SANGUE 01",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "CRECHE TERREO PAMB",
+    "nome_original": "CRECHE TERREO PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "RESTAURANTE SUBSOLO",
+    "nome_original": "RESTAURANTE SUBSOLO",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "CASA AIDS - EXTERNO",
+    "nome_original": "CASA AIDS - EXTERNO",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "AMB SVS CLIN. MOL. INFEC. PARASIT. HIV/AIDS",
+    "nome_original": "[AMCA] - AMB SVS CLIN. MOL. INFEC. PARASIT. HIV/AIDS",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "SVS DE EXT. ATEND. DE PAC. HIV/AIDS - HOS DIA",
+    "nome_original": "[ASEHD] - SVS DE EXT. ATEND. DE PAC. HIV/AIDS - HOS DIA",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "SVS DE EXTENSAO ATEND. DE PACIENTES HIV/AIDS",
+    "nome_original": "[ASECA] - SVS DE EXTENSAO ATEND. DE PACIENTES HIV/AIDS",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "CASA DA AIDS - AIH - HD",
+    "nome_original": "[CAHD] - CASA DA AIDS - AIH - HD",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "AMB REOUVIR - EXTERNO",
+    "nome_original": "AMB REOUVIR - EXTERNO",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "6 - GERENCIAL PRODUTIVO"
+  },
+  {
+    "nome": "ALTA COMPLEXIDADE DE ORTESES AUDITIVAS",
+    "nome_original": "[AAASI] - ALTA COMPLEXIDADE DE ORTESES AUDITIVAS",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "AMBULATORIO DE DIAGNOSTICO DA SURDEZ",
+    "nome_original": "[ADSI] - AMBULATORIO DE DIAGNOSTICO DA SURDEZ",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "OTORRINO - SAUDE SUPLEMENTAR - EXTERNO",
+    "nome_original": "OTORRINO - SAUDE SUPLEMENTAR - EXTERNO",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "EMEI - EXTERNO",
+    "nome_original": "EMEI - EXTERNO",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "APOSENTADOS E PENSIONISTAS",
+    "nome_original": "APOSENTADOS E PENSIONISTAS",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "RESIDENCIA MEDICA E MULTIPROFISSIONAL",
+    "nome_original": "RESIDENCIA MEDICA E MULTIPROFISSIONAL",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "VOLUNTARIADO",
+    "nome_original": "VOLUNTARIADO",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "INSTITUTO EMILIO RIBAS",
+    "nome_original": "INSTITUTO EMILIO RIBAS",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "CUIDADOS PALIATIVOS EXTERNO - IOT",
+    "nome_original": "CUIDADOS PALIATIVOS EXTERNO - IOT",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "CAPELA DECIMO PRIMEIRO - 11",
+    "nome_original": "CAPELA DECIMO PRIMEIRO - 11",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "ESPACO DIDATICO FMUSP - TERREO",
+    "nome_original": "ESPACO DIDATICO FMUSP - TERREO",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "SUBCOMISSOES - 04 - PAMB",
+    "nome_original": "SUBCOMISSOES - 04 - PAMB",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "CARE - CENTRO DE ATENCAO RELIGIOSA",
+    "nome_original": "CARE - CENTRO DE ATENCAO RELIGIOSA",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "HOSPITAL UNIVERSITÁRIO - HU - OBSTETRICIA",
+    "nome_original": "HOSPITAL UNIVERSITÁRIO - HU - OBSTETRICIA",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "HOSPITAL UNIVERSITÁRIO - HU - OTORRINO",
+    "nome_original": "HOSPITAL UNIVERSITÁRIO - HU - OTORRINO",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "HOSPITAL UNIVERSITÁRIO - HU - OFTALMO",
+    "nome_original": "HOSPITAL UNIVERSITÁRIO - HU - OFTALMO",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "HOSPITAL UNIVERSITÁRIO - HU - GERAL",
+    "nome_original": "HOSPITAL UNIVERSITÁRIO - HU - GERAL",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "LAB URG DLC/ICESP 02",
+    "nome_original": "LAB URG DLC/ICESP 02",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "CASA DE MOEMA",
+    "nome_original": "CASA DE MOEMA",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "PLANTÃO CONTROLADOR 04",
+    "nome_original": "PLANTÃO CONTROLADOR 04",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "AMB VARZEA DO CAMO - EXTERNO",
+    "nome_original": "AMB VARZEA DO CAMO - EXTERNO",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "COMISSIONADO ASSISTENCIAL - ICHC",
+    "nome_original": "COMISSIONADO ASSISTENCIAL - ICHC",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "COMISSIONADO NAO ASSISTENCIAL - ICHC",
+    "nome_original": "COMISSIONADO NAO ASSISTENCIAL - ICHC",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "LIM - FMUSP",
+    "nome_original": "LIM - FMUSP",
+    "tipo": "Centro de Custo",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "L15 BM - BIOPSIA DE MUSCULO",
+    "nome_original": "[L15BM] - L15 BM - BIOPSIA DE MUSCULO",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  },
+  {
+    "nome": "L59BN - BIOPSIA DE NERVO",
+    "nome_original": "[L59BN] - L59BN - BIOPSIA DE NERVO",
+    "tipo": "Centro de Receita",
+    "agrupador": "OUTRAS UNIDADES NAO OPERACIONAIS",
+    "grupo_operacional": "5 - NAO OPERACIONAL"
+  }
 ]
