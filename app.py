@@ -768,14 +768,43 @@ elif st.session_state.etapa == 4:
         dados = st.session_state.dados_auditoria
         req_atuais_sort = req_atuais.sort_values(["subsecao", "nivel", "item"]).reset_index(drop=True)
 
+        # === Aba "Avaliação" — 23 colunas idênticas ao consolidado do Looker ===
+        # Filtra: SÓ requisitos que foram avaliados (avaliacao não vazia)
+        nome_arquivo_origem = f"App_Auditoria_ONA_2026_{dados.get('aba_setor','setor').replace(' ','_')}"
+        chave_auditoria = (
+            f"{nome_arquivo_origem} | "
+            f"{dados.get('data_auditoria','')} | "
+            f"{dados.get('aba_setor','')}"
+        )
+
         linhas = []
         for _, req in req_atuais_sort.iterrows():
             chave = f"{req['subsecao']}__{req['item']}"
             av = st.session_state.avaliacoes.get(chave, {})
+            avaliacao_val = av.get("avaliacao", "")
+
+            # FILTRO: pular requisitos não avaliados
+            if not avaliacao_val:
+                continue
+
+            status_map = {
+                "C": "Conforme", "PC": "Parcialmente Conforme",
+                "NC": "Não Conforme", "S": "Supera", "NA": "Não Se Aplica",
+            }
+            observacao = av.get("observacao", "")
+            plano_acao = av.get("plano_acao", "")
+
+            # Se houver plano de ação, anexa na observação (Looker só tem 1 coluna)
+            obs_final = observacao
+            if plano_acao:
+                if obs_final:
+                    obs_final += f"\n\n[Plano de ação]: {plano_acao}"
+                else:
+                    obs_final = f"[Plano de ação]: {plano_acao}"
+
             linhas.append({
-                "arquivo_origem": "App_Auditoria_ONA_2026",
+                "arquivo_origem": nome_arquivo_origem,
                 "ciclo": "2026",
-                "Ano": 2026,
                 "aba_setor": dados.get("aba_setor", ""),
                 "area_auditada": dados.get("area_auditada", ""),
                 "data_auditoria": dados.get("data_auditoria", ""),
@@ -783,34 +812,35 @@ elif st.session_state.etapa == 4:
                 "auditor_lider": dados.get("auditor_lider", ""),
                 "auditor_auxiliar": dados.get("auditor_auxiliar", ""),
                 "participantes": dados.get("participantes", ""),
-                "subsecao": req["subsecao"],
-                "item": req["item"],
-                "nivel": int(req["nivel"]),
-                "nivel_descricao": {1: "Nível 1 - Core/Segurança",
-                                    2: "Nível 2 - Organização Integrada",
-                                    3: "Nível 3 - Excelência"}.get(int(req["nivel"]), ""),
-                "requisito": req["requisito"],
+                "item": str(req["item"]),
+                "requisito": str(req["requisito"]),
+                "orientacoes": str(req.get("orientacoes", "") or ""),
+                "sugestao_evidencia": str(req.get("sugestao_evidencia", "") or ""),
+                "avaliacao": avaliacao_val,
+                "avaliacao_2visita": "",
+                "observacao": obs_final,
+                "subsecao": str(req["subsecao"]),
+                "Ano": 2026,
+                "Status": status_map.get(avaliacao_val, "Não Avaliado"),
                 "Chave_Requisito": f"{req['item']} | {req['requisito']}",
-                "orientacoes": req.get("orientacoes", ""),
-                "sugestao_evidencia": req.get("sugestao_evidencia", ""),
-                "avaliacao": av.get("avaliacao", ""),
-                "Status": {
-                    "C": "Conforme", "PC": "Parcialmente Conforme",
-                    "NC": "Não Conforme", "S": "Supera", "NA": "Não Se Aplica"
-                }.get(av.get("avaliacao", ""), "Não Avaliado"),
-                "observacao": av.get("observacao", ""),
-                "plano_acao": av.get("plano_acao", ""),
+                "Chave_Auditoria": chave_auditoria,
+                "Flag_Duplicado": "NÃO",
+                "Possui_Observacao": "SIM" if (observacao or plano_acao) else "NÃO",
             })
 
         df_resultado = pd.DataFrame(linhas)
+        total_exportado = len(df_resultado)
 
+        # === Aba "Identificação" ===
         cabecalho = pd.DataFrame({
-            "Campo": ["Instituição", "Setor / Área", "Data", "Auditor líder",
-                     "Auditor auxiliar", "Nº relatório", "Participantes",
-                     "Ciclo", "Subseções avaliadas", "Total de requisitos",
-                     "Requisitos Core (N1)", "Requisitos avaliados"],
+            "Campo": ["Instituição", "Setor / Área auditada", "Aba setor (subseção)",
+                     "Data da auditoria", "Auditor líder", "Auditor auxiliar",
+                     "Nº relatório", "Participantes", "Ciclo",
+                     "Subseções selecionadas", "Total de requisitos das subseções",
+                     "Requisitos Core (N1)", "Requisitos avaliados (exportados)"],
             "Valor": ["ICHC - HC-FMUSP",
                      dados.get("area_auditada", ""),
+                     dados.get("aba_setor", ""),
                      dados.get("data_auditoria", ""),
                      dados.get("auditor_lider", ""),
                      dados.get("auditor_auxiliar", ""),
@@ -820,37 +850,63 @@ elif st.session_state.etapa == 4:
                      ", ".join(st.session_state.subsecoes_selecionadas),
                      total_req,
                      total_core,
-                     avaliados],
+                     total_exportado],
         })
 
-        # Resumo por subseção (com colunas de % conforme, PC, NC)
-        resumo_sub = df_resultado.groupby("subsecao").agg(
-            total=("avaliacao", "count"),
-            conforme=("avaliacao", lambda x: (x == "C").sum()),
-            parcial=("avaliacao", lambda x: (x == "PC").sum()),
-            nao_conforme=("avaliacao", lambda x: (x == "NC").sum()),
-            supera=("avaliacao", lambda x: (x == "S").sum()),
-            na=("avaliacao", lambda x: (x == "NA").sum()),
-            nao_avaliado=("avaliacao", lambda x: (x == "").sum()),
-        ).reset_index()
-        validos = (resumo_sub["total"] - resumo_sub["na"] - resumo_sub["nao_avaliado"]).replace(0, 1)
-        resumo_sub["pct_conformidade"] = ((resumo_sub["conforme"] + resumo_sub["supera"]) / validos * 100).round(1)
-        resumo_sub["pct_parcial"] = (resumo_sub["parcial"] / validos * 100).round(1)
-        resumo_sub["pct_nao_conforme"] = (resumo_sub["nao_conforme"] / validos * 100).round(1)
+        # === Aba "Resumo_por_subsecao" com % de cada item ===
+        if total_exportado > 0:
+            resumo_sub = df_resultado.groupby("subsecao").agg(
+                total_avaliados=("avaliacao", "count"),
+                conforme=("avaliacao", lambda x: (x == "C").sum()),
+                parcial=("avaliacao", lambda x: (x == "PC").sum()),
+                nao_conforme=("avaliacao", lambda x: (x == "NC").sum()),
+                supera=("avaliacao", lambda x: (x == "S").sum()),
+                na=("avaliacao", lambda x: (x == "NA").sum()),
+            ).reset_index()
+            validos = (resumo_sub["total_avaliados"] - resumo_sub["na"]).replace(0, 1)
+            resumo_sub["pct_conforme"] = (resumo_sub["conforme"] / validos * 100).round(1)
+            resumo_sub["pct_parcial_conforme"] = (resumo_sub["parcial"] / validos * 100).round(1)
+            resumo_sub["pct_nao_conforme"] = (resumo_sub["nao_conforme"] / validos * 100).round(1)
+            resumo_sub["pct_supera"] = (resumo_sub["supera"] / validos * 100).round(1)
+            resumo_sub["pct_conformidade_geral"] = (
+                (resumo_sub["conforme"] + resumo_sub["supera"]) / validos * 100
+            ).round(1)
+        else:
+            resumo_sub = pd.DataFrame(columns=["subsecao", "total_avaliados",
+                "conforme", "parcial", "nao_conforme", "supera", "na",
+                "pct_conforme", "pct_parcial_conforme", "pct_nao_conforme",
+                "pct_supera", "pct_conformidade_geral"])
 
-        # Resumo por nível
-        resumo_nivel = df_resultado.groupby("nivel").agg(
-            total=("avaliacao", "count"),
-            conforme=("avaliacao", lambda x: (x == "C").sum()),
-            parcial=("avaliacao", lambda x: (x == "PC").sum()),
-            nao_conforme=("avaliacao", lambda x: (x == "NC").sum()),
-            supera=("avaliacao", lambda x: (x == "S").sum()),
-            na=("avaliacao", lambda x: (x == "NA").sum()),
-        ).reset_index()
-        validos_n = (resumo_nivel["total"] - resumo_nivel["na"]).replace(0, 1)
-        resumo_nivel["pct_conformidade"] = ((resumo_nivel["conforme"] + resumo_nivel["supera"]) / validos_n * 100).round(1)
-        resumo_nivel["pct_parcial"] = (resumo_nivel["parcial"] / validos_n * 100).round(1)
-        resumo_nivel["pct_nao_conforme"] = (resumo_nivel["nao_conforme"] / validos_n * 100).round(1)
+        # === Aba "Resumo_por_nivel" (Core vs demais) ===
+        if total_exportado > 0:
+            df_temp = df_resultado.copy()
+            # Buscar nivel de cada requisito a partir do catálogo
+            req_lookup = req_atuais_sort.set_index(["subsecao", "item"])["nivel"].to_dict()
+            df_temp["nivel"] = df_temp.apply(
+                lambda r: int(req_lookup.get((r["subsecao"], r["item"]), 3)), axis=1
+            )
+            resumo_nivel = df_temp.groupby("nivel").agg(
+                total_avaliados=("avaliacao", "count"),
+                conforme=("avaliacao", lambda x: (x == "C").sum()),
+                parcial=("avaliacao", lambda x: (x == "PC").sum()),
+                nao_conforme=("avaliacao", lambda x: (x == "NC").sum()),
+                supera=("avaliacao", lambda x: (x == "S").sum()),
+                na=("avaliacao", lambda x: (x == "NA").sum()),
+            ).reset_index()
+            validos_n = (resumo_nivel["total_avaliados"] - resumo_nivel["na"]).replace(0, 1)
+            resumo_nivel["pct_conforme"] = (resumo_nivel["conforme"] / validos_n * 100).round(1)
+            resumo_nivel["pct_parcial_conforme"] = (resumo_nivel["parcial"] / validos_n * 100).round(1)
+            resumo_nivel["pct_nao_conforme"] = (resumo_nivel["nao_conforme"] / validos_n * 100).round(1)
+            resumo_nivel["pct_supera"] = (resumo_nivel["supera"] / validos_n * 100).round(1)
+            resumo_nivel["nivel_descricao"] = resumo_nivel["nivel"].map({
+                1: "Nível 1 - Core/Segurança",
+                2: "Nível 2 - Organização Integrada",
+                3: "Nível 3 - Excelência",
+            })
+        else:
+            resumo_nivel = pd.DataFrame(columns=["nivel", "nivel_descricao", "total_avaliados",
+                "conforme", "parcial", "nao_conforme", "supera", "na",
+                "pct_conforme", "pct_parcial_conforme", "pct_nao_conforme", "pct_supera"])
 
         buffer = BytesIO()
         with pd.ExcelWriter(buffer, engine="openpyxl") as writer:
@@ -859,14 +915,18 @@ elif st.session_state.etapa == 4:
             resumo_sub.to_excel(writer, sheet_name="Resumo_por_subsecao", index=False)
             resumo_nivel.to_excel(writer, sheet_name="Resumo_por_nivel", index=False)
         buffer.seek(0)
-        return buffer
+        return buffer, total_exportado
 
     dados = st.session_state.dados_auditoria
     setor_safe = dados.get("aba_setor", "Setor").replace(" ", "_").replace("/", "-")[:30]
     data_safe = dados.get("data_auditoria", "").replace("/", "-")
     nome_arquivo = f"Auditoria_ONA_2026_{setor_safe}_{data_safe}.xlsx"
 
-    excel_bytes = gerar_excel()
+    excel_bytes, n_export = gerar_excel()
+    if n_export == 0:
+        st.error("⚠️ Nenhum requisito foi avaliado ainda. Volte para a avaliação e preencha pelo menos um requisito antes de baixar.")
+    else:
+        st.info(f"📤 Pronto para download: **{n_export} requisitos avaliados** serão exportados. Requisitos sem avaliação não aparecem no arquivo.")
 
     col1, col2 = st.columns([1, 3])
     with col1:
