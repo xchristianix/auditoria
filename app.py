@@ -534,41 +534,58 @@ elif st.session_state.etapa == 3:
 
     st.progress((idx+1) / total_req)
 
-    # Filtro rápido por nível
-    with st.expander("🔍 Navegação / Filtros"):
-        col_f1, col_f2 = st.columns(2)
-        with col_f1:
-            filtro_nivel = st.multiselect(
-                "Mostrar apenas níveis:",
-                [1, 2, 3],
-                default=[1, 2, 3],
-                format_func=lambda n: {1: "🔴 Core (N1)", 2: "🔵 N2", 3: "🟣 N3"}[n],
-            )
-            req_filtrados_idx = [i for i, r in req_atuais.iterrows() if r["nivel"] in filtro_nivel]
-        with col_f2:
-            st.markdown("**Status de cada requisito:**")
-            stat_emoji = {"C": "✅", "PC": "🟡", "NC": "❌", "S": "⭐", "NA": "➖"}
-            opcoes_nav = []
-            for i, r in req_atuais.iterrows():
-                if i not in req_filtrados_idx:
-                    continue
-                cv = st.session_state.avaliacoes.get(f"{r['subsecao']}__{r['item']}", {}).get("avaliacao", "")
-                marker = stat_emoji.get(cv, "⚪")
-                nivel_str = {1: "🔴", 2: "🔵", 3: "🟣"}.get(r["nivel"], "")
-                opcoes_nav.append((i, f"{marker} {nivel_str} [{r['subsecao']}] item {r['item']} — {str(r['requisito'])[:60]}..."))
+    # Filtro rápido por nível + Ir para (sempre visíveis, sem expander)
+    col_f1, col_f2, col_go = st.columns([1.5, 3.5, 0.7])
+    with col_f1:
+        filtro_nivel = st.multiselect(
+            "Mostrar apenas níveis:",
+            [1, 2, 3],
+            default=[1, 2, 3],
+            format_func=lambda n: {1: "🔴 Core (N1)", 2: "🔵 N2", 3: "🟣 N3"}[n],
+            key="filtro_nivel_nav",
+        )
+        if not filtro_nivel:
+            filtro_nivel = [1, 2, 3]
+        req_filtrados_idx = [i for i, r in req_atuais.iterrows() if r["nivel"] in filtro_nivel]
+    with col_f2:
+        stat_emoji = {"C": "✅", "PC": "🟡", "NC": "❌", "S": "⭐", "NA": "➖"}
+        opcoes_nav = []
+        for i, r in req_atuais.iterrows():
+            if i not in req_filtrados_idx:
+                continue
+            cv = st.session_state.avaliacoes.get(f"{r['subsecao']}__{r['item']}", {}).get("avaliacao", "")
+            marker = stat_emoji.get(cv, "⚪")
+            nivel_str = {1: "🔴", 2: "🔵", 3: "🟣"}.get(r["nivel"], "")
+            opcoes_nav.append((i, f"{marker} {nivel_str} [{r['subsecao']}] item {r['item']} — {str(r['requisito'])[:60]}..."))
 
         if opcoes_nav:
             indices_disponiveis = [o[0] for o in opcoes_nav]
             labels = [o[1] for o in opcoes_nav]
+            # Se o requisito atual está no filtro, posiciona nele; senão, posição 0
             try:
                 indice_pos = indices_disponiveis.index(idx)
             except ValueError:
                 indice_pos = 0
-            sel_label = st.selectbox("Ir para:", labels, index=indice_pos, key="nav_select")
-            novo_idx = indices_disponiveis[labels.index(sel_label)]
-            if novo_idx != idx:
-                st.session_state.indice_atual = novo_idx
-                st.rerun()
+            # Selectbox PASSIVO — apenas mostra a opção, NÃO faz rerun automático.
+            # A navegação acontece quando a auditora clica "Ir →"
+            sel_label = st.selectbox(
+                "Ir para outro requisito:",
+                labels,
+                index=indice_pos,
+                key=f"nav_select_{idx}",  # key dinâmica → widget novo a cada idx
+            )
+        else:
+            sel_label = None
+            indices_disponiveis = []
+            labels = []
+    with col_go:
+        st.markdown("<div style='height:28px'></div>", unsafe_allow_html=True)  # alinhar com selectbox
+        if st.button("Ir →", use_container_width=True, disabled=not opcoes_nav, help="Pular para o requisito selecionado ao lado"):
+            if sel_label and sel_label in labels:
+                novo_idx = indices_disponiveis[labels.index(sel_label)]
+                if novo_idx != idx:
+                    st.session_state.indice_atual = novo_idx
+                    st.rerun()
 
     st.divider()
 
@@ -652,21 +669,35 @@ elif st.session_state.etapa == 3:
 
     st.divider()
 
-    col1, col2, col3, col4 = st.columns([1, 1, 1, 2])
+    col1, col2, col3, col4 = st.columns([1, 1, 2, 1.5])
     with col1:
-        if st.button("← Subseções"):
+        if st.button("← Subseções", use_container_width=True):
             st.session_state.etapa = 2
             st.rerun()
     with col2:
-        if st.button("⬅ Anterior", disabled=idx == 0):
+        if st.button("⬅ Anterior", disabled=idx == 0, use_container_width=True):
             st.session_state.indice_atual = idx - 1
             st.rerun()
     with col3:
-        if st.button("Próximo ➡", disabled=idx == total_req - 1):
+        # Próximo é a ação primária (fluxo natural de preenchimento)
+        is_ultimo = (idx == total_req - 1)
+        if st.button(
+            "Próximo requisito ➡" if not is_ultimo else "✓ Você está no último requisito",
+            disabled=is_ultimo,
+            use_container_width=True,
+            type="primary",
+        ):
             st.session_state.indice_atual = idx + 1
             st.rerun()
     with col4:
-        if st.button("Concluir e revisar 🏁", type="primary", use_container_width=True):
+        # Concluir vira primary apenas quando tudo está avaliado
+        avaliados_cnt = sum(1 for v in st.session_state.avaliacoes.values() if v.get("avaliacao"))
+        tudo_avaliado = avaliados_cnt >= total_req
+        if st.button(
+            "Concluir e revisar 🏁",
+            use_container_width=True,
+            type="primary" if tudo_avaliado else "secondary",
+        ):
             st.session_state.etapa = 4
             st.rerun()
 
